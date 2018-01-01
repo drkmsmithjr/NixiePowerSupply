@@ -51,3 +51,7 @@ BlogGraphics
 
 # LTSPICE Raw files
 .raw
+
+#Kicad files
+.bak
+.kicad_pcb-bak
