@@ -1,0 +1,806 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:/Users/Mark.Smith/Dropbox/personal/SurfnCircuits/NixiePowerSupply/KC_NixieSupply5vTo160v/NixieSupply5vto160vDCMBoost.sch</source>
+    <date>12/31/2017 2:15:58 PM</date>
+    <tool>Eeschema 4.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>NixieSupply5vto160vDCMBoost.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>DFLS1200-7</value>
+      <footprint>Diodes_SMD:D_PowerDI-123</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/diodes-incorporated/DFLS1200-7/DFLS1200DITR-ND/776776</datasheet>
+      <fields>
+        <field name="MPN">DFLS1200-7 </field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5884DA8B</tstamp>
+    </comp>
+    <comp ref="L3">
+      <value>33uH</value>
+      <footprint>NixieSupply5vto160vDCMBoost_socket:Choke_SMD_12x12mm_Wurth_WE-PD</footprint>
+      <datasheet>https://www.digikey.com/products/en/inductors-coils-chokes/fixed-inductors/71?k=7447709330&amp;k=&amp;pkeyword=7447709330&amp;pv7=2&amp;mnonly=0&amp;ColumnSort=0&amp;page=1&amp;quantity=0&amp;ptm=0&amp;fid=0&amp;pageSize=25</datasheet>
+      <fields>
+        <field name="MPN">7447709330</field>
+      </fields>
+      <libsource lib="device" part="L"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5884DB9B</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>0.1 1/2W</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6DSFR10V/P19308CT-ND/6004663</datasheet>
+      <fields>
+        <field name="MPN">ERJ-6DSFR10V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5884DD2F</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5884E3A2</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>UCC3803</value>
+      <footprint>NixieSupply5vto160vDCMBoost_socket:SOIC-8-N</footprint>
+      <datasheet>https://www.digikey.com/products/en/integrated-circuits-ics/pmic-voltage-regulators-dc-dc-switching-controllers/715?k=UCC3803&amp;k=&amp;pkeyword=UCC3803&amp;pv7=2&amp;pv1291=46&amp;mnonly=0&amp;ColumnSort=0&amp;page=1&amp;quantity=0&amp;ptm=0&amp;fid=0&amp;pageSize=25</datasheet>
+      <fields>
+        <field name="MPN">UCC3803DTR</field>
+      </fields>
+      <libsource lib="NixieSupply5vto160vDCMBoost-cache" part="AAC243"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58854AD6</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>20 0.5W</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58854C64</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>47pF 250v</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>http://www.digikey.com/product-detail/en/tdk-corporation/C1608C0G2E331J080AA/445-2317-1-ND/789826</datasheet>
+      <fields>
+        <field name="MPN">C1608C0G2E331J080AA</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58854D96</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>588551A6</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>1nF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58855203</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>634k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>588552CB</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>7.68k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58855328</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>0 Ohm</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5885549C</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>220pF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5885552D</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>N.U.</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>588555AD</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>60.4k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58855807</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>330pF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58855871</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>60ohm 100Mhz</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/taiyo-yuden/BKP2125HS600-T/587-1932-1-ND/1465402</datasheet>
+      <fields>
+        <field name="MPN">BKP2125HS600-T </field>
+      </fields>
+      <libsource lib="device" part="L"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58859FC4</tstamp>
+    </comp>
+    <comp ref="L5">
+      <value>60ohm 100Mhz</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/taiyo-yuden/BKP2125HS600-T/587-1932-1-ND/1465402</datasheet>
+      <libsource lib="device" part="L"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5885A4D9</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>FDS2734CT</value>
+      <footprint>etaclock:SOIC-8-N</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/on-semiconductor/FDS2672/FDS2672CT-ND/1217902</datasheet>
+      <fields>
+        <field name="MPN">FDS2672CT-ND</field>
+      </fields>
+      <libsource lib="transistors" part="FDMS86255ET150"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59606CBE</tstamp>
+    </comp>
+    <comp ref="TP14">
+      <value>+160v</value>
+      <footprint>Connect:PINTST</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>596368AF</tstamp>
+    </comp>
+    <comp ref="TP12">
+      <value>SW_B</value>
+      <footprint>Connect:PINTST</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59636DB8</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>USB_OTG</value>
+      <footprint>NixieSupply5vto160vDCMBoost_socket:USB_Micro-B_Wurth_3A</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/wurth-electronics-inc/629105150521/732-5960-1-ND/5047555</datasheet>
+      <fields>
+        <field name="MPN">629105150521</field>
+      </fields>
+      <libsource lib="NixieSupply5vto160vDCMBoost-cache" part="USB_OTG-RESCUE-ETAclock"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>597012CF</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>1uF 250v</value>
+      <footprint>Capacitors_SMD:C_2220_HandSoldering</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM55DR72E105KW01L/490-3550-1-ND/789455</datasheet>
+      <fields>
+        <field name="MPN">GRM55DR72E105KW01L</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59700BD6</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1uF 250v</value>
+      <footprint>Capacitors_SMD:C_2220_HandSoldering</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM55DR72E105KW01L/490-3550-1-ND/789455</datasheet>
+      <fields>
+        <field name="MPN">GRM55DR72E105KW01L</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>597025DB</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>0.1uF 250v</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5974D95C</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>0.1uF 250v</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5974DAD8</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3FC05D</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3FC312</tstamp>
+    </comp>
+    <comp ref="Q26">
+      <value>MMBTA42</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <datasheet>http://www.digikey.com/product-detail/en/micro-commercial-co/MMBTA42-TP/MMBTA42TPMSCT-ND/717401</datasheet>
+      <libsource lib="transistors" part="MPSA42"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A400D9C</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100pF 250v</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3FE39A</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>47uF 10v</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <datasheet>http://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM21BR61A476ME15L/490-9961-1-ND/5026442</datasheet>
+      <fields>
+        <field name="MPN">GRM21BR61A476ME15L</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A408B31</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A408DDF</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>2k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A408EBF</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>47uF 10v</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <datasheet>http://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM21BR61A476ME15L/490-9961-1-ND/5026442</datasheet>
+      <fields>
+        <field name="MPN">GRM21BR61A476ME15L</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A40AC1C</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A40B0B2</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>BAT54</value>
+      <footprint>Diodes_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/diodes-incorporated/BAT54WS-7-F/BAT54WS-FDICT-ND/804892</datasheet>
+      <fields>
+        <field name="MPN">BAT54WS-7-F</field>
+      </fields>
+      <libsource lib="device" part="D_Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A4626BB</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF 250v</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A45D816</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>47uF 10v</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <datasheet>http://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM21BR61A476ME15L/490-9961-1-ND/5026442</datasheet>
+      <fields>
+        <field name="MPN">GRM21BR61A476ME15L</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A466994</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>47uF 10v</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <datasheet>http://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM21BR61A476ME15L/490-9961-1-ND/5026442</datasheet>
+      <fields>
+        <field name="MPN">GRM21BR61A476ME15L</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A46B086</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>47uF 10v</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <datasheet>http://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM21BR61A476ME15L/490-9961-1-ND/5026442</datasheet>
+      <fields>
+        <field name="MPN">GRM21BR61A476ME15L</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A46B83F</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Screw_Terminal_1x04</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-3.5mm_4pol</footprint>
+      <libsource lib="NixieSupply5vto160vDCMBoost-cache" part="Screw_Terminal_1x04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A46AC14</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>CONN_01X01</value>
+      <footprint>Mounting_Holes:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="NixieSupply5vto160vDCMBoost-cache" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A46B464</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>CONN_01X01</value>
+      <footprint>Mounting_Holes:MountingHole_2.2mm_M2_Pad</footprint>
+      <libsource lib="NixieSupply5vto160vDCMBoost-cache" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A46B52B</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>CONN_01X01</value>
+      <footprint>Mounting_Holes:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="NixieSupply5vto160vDCMBoost-cache" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A46B5EB</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>CONN_01X01</value>
+      <footprint>Mounting_Holes:MountingHole_2.2mm_M2_Pad</footprint>
+      <libsource lib="NixieSupply5vto160vDCMBoost-cache" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A46B2DF</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>0.1uF 16v</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A478653</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>8.2k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A4792E0</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="NixieSupply5vto160vDCMBoost-cache" part="AAC243">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AAC243</field>
+      </fields>
+      <pins>
+        <pin num="1" name="COMP" type="output"/>
+        <pin num="2" name="FB" type="input"/>
+        <pin num="3" name="Isense" type="input"/>
+        <pin num="4" name="R/C" type="input"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="OUT" type="output"/>
+        <pin num="7" name="Vcc" type="power_in"/>
+        <pin num="8" name="Vref" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NixieSupply5vto160vDCMBoost-cache" part="CONN_01X01">
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D">
+      <description>Diode</description>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="transistors" part="FDMS8350LET40">
+      <aliases>
+        <alias>FDMT80060DC</alias>
+        <alias>FDMT80080DC</alias>
+        <alias>FDMT800120DC</alias>
+        <alias>FDMT800100DC</alias>
+        <alias>FDMT800150DC</alias>
+        <alias>FDMT800152DC</alias>
+        <alias>FDMS8050ET30</alias>
+        <alias>FDMS86202ET120</alias>
+        <alias>FDMS86150ET100</alias>
+        <alias>FDMS86255ET150</alias>
+        <alias>FDMS86350ET80</alias>
+        <alias>FDMS86550ET60</alias>
+        <alias>FDMS8050</alias>
+        <alias>FDMS8350L</alias>
+        <alias>FDMS86255</alias>
+        <alias>FDMS86550</alias>
+        <alias>FDMS86202</alias>
+        <alias>FDMS86350</alias>
+        <alias>FDMS86152</alias>
+        <alias>FDMS86150</alias>
+      </aliases>
+      <description>N-Channel PowerTrench MOSFET, Vds=40V, Rds=0.85mΩ, Id(const)=49A, Qg(max)=242nC, Temp=-55 to 175 °C, SON8 5x6mm package</description>
+      <docs>https://www.fairchildsemi.com/datasheets/FD/FDMS8350LET40.pdf</docs>
+      <footprints>
+        <fp>SON*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">FDMS8350LET40</field>
+        <field name="Footprint">TO_SOT_Packages_SMD:TDSON-8-1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+        <pin num="4" name="G" type="passive"/>
+        <pin num="5" name="D" type="passive"/>
+        <pin num="6" name="D" type="passive"/>
+        <pin num="7" name="D" type="passive"/>
+        <pin num="8" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="L">
+      <description>Inductor</description>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="transistors" part="MPSA42">
+      <description>Vce 300V, Ic 500mA, NPN High Voltage Transistor, TO-92</description>
+      <docs>http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">MPSA42</field>
+        <field name="Footprint">TO_SOT_Packages_THT:TO-92_Molded_Narrow</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NixieSupply5vto160vDCMBoost-cache" part="Screw_Terminal_1x04">
+      <footprints>
+        <fp>bornier4</fp>
+        <fp>TerminalBlock*4pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_1x04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="TEST_1P">
+      <description>point</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">TEST_1P</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NixieSupply5vto160vDCMBoost-cache" part="USB_OTG-RESCUE-ETAclock">
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_OTG-RESCUE-ETAclock</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_in"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="transistors">
+      <uri>C:\Program Files\KiCad\share\kicad\library\transistors.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+    <library logical="NixieSupply5vto160vDCMBoost-cache">
+      <uri>C:\Users\Mark.Smith\Dropbox\personal\SurfnCircuits\NixiePowerSupply\KC_NixieSupply5vTo160v\NixieSupply5vto160vDCMBoost-cache.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(Q1-Pad4)">
+      <node ref="R6" pin="1"/>
+      <node ref="Q1" pin="4"/>
+    </net>
+    <net code="2" name="Net-(Q26-Pad2)">
+      <node ref="R1" pin="1"/>
+      <node ref="Q26" pin="2"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="3" name="Net-(C14-Pad1)">
+      <node ref="R9" pin="2"/>
+      <node ref="Q26" pin="3"/>
+      <node ref="D2" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="4" name="Net-(C7-Pad1)">
+      <node ref="C7" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="5" name="Net-(C5-Pad2)">
+      <node ref="R5" pin="2"/>
+      <node ref="C5" pin="2"/>
+    </net>
+    <net code="6" name="GND">
+      <node ref="P1" pin="6"/>
+      <node ref="P1" pin="5"/>
+      <node ref="U1" pin="5"/>
+      <node ref="R10" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="R9" pin="1"/>
+      <node ref="C14" pin="2"/>
+      <node ref="Q26" pin="1"/>
+      <node ref="R16" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="J3" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="C10" pin="2"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="7" name="Net-(C10-Pad1)">
+      <node ref="C10" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="R12" pin="2"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="8" name="Net-(J4-Pad1)">
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="9" name="Net-(J5-Pad1)">
+      <node ref="J5" pin="1"/>
+    </net>
+    <net code="10" name="5v_Power">
+      <node ref="L2" pin="2"/>
+      <node ref="C18" pin="1"/>
+      <node ref="P1" pin="1"/>
+      <node ref="C16" pin="1"/>
+      <node ref="J1" pin="4"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="11" name="N_ENABLE">
+      <node ref="J1" pin="3"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="12" name="Net-(P1-Pad2)">
+      <node ref="P1" pin="3"/>
+      <node ref="P1" pin="2"/>
+    </net>
+    <net code="13" name="Net-(C5-Pad1)">
+      <node ref="D2" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="14" name="+160V">
+      <node ref="C3" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="TP14" pin="1"/>
+      <node ref="L5" pin="1"/>
+    </net>
+    <net code="15" name="Net-(P1-Pad4)">
+      <node ref="P1" pin="4"/>
+    </net>
+    <net code="16" name="Net-(R6-Pad2)">
+      <node ref="R6" pin="2"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="17" name="Net-(C1-Pad1)">
+      <node ref="L5" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="R15" pin="1"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="18" name="Net-(Q1-Pad1)">
+      <node ref="R10" pin="1"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="19" name="Net-(C15-Pad1)">
+      <node ref="C15" pin="1"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="20" name="Net-(C4-Pad1)">
+      <node ref="C9" pin="1"/>
+      <node ref="L3" pin="2"/>
+      <node ref="L2" pin="1"/>
+      <node ref="U1" pin="7"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C8" pin="1"/>
+    </net>
+    <net code="21" name="Net-(C6-Pad2)">
+      <node ref="R3" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="R16" pin="1"/>
+      <node ref="R15" pin="2"/>
+    </net>
+    <net code="22" name="Net-(C11-Pad1)">
+      <node ref="R12" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="R8" pin="2"/>
+      <node ref="C11" pin="1"/>
+    </net>
+    <net code="23" name="Net-(D1-Pad2)">
+      <node ref="L3" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="R11" pin="1"/>
+      <node ref="Q1" pin="5"/>
+      <node ref="Q1" pin="6"/>
+      <node ref="Q1" pin="7"/>
+      <node ref="Q1" pin="8"/>
+      <node ref="TP12" pin="1"/>
+    </net>
+  </nets>
+</export>
