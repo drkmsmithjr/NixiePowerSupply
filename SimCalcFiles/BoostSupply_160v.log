@@ -1,0 +1,343 @@
+Circuit: * C:\Users\Mark.Smith\Dropbox\personal\SurfnCircuits\NixiePowerSupply\SimCalcFiles\BoostSupply_160v.asc
+
+Warning: Multiple definitions of model "es1d" Type: Diode
+C3: Increased Cpar to 1.5e-010
+u2:vr2: Missing value, assumed 0V @ DC
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+vernier = 0.5
+Gmin = 2.07126
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+vernier = 0.03125
+Gmin = 2.15923
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00195313
+Gmin = 2.16235
+vernier = 0.00260417
+Gmin = 2.14972
+vernier = 0.00347222
+vernier = 0.00462963
+Gmin = 2.12869
+vernier = 0.00617283
+vernier = 0.00823044
+Gmin = 2.09558
+vernier = 0.0109739
+Gmin = 2.04453
+vernier = 0.0146319
+vernier = 0.0195092
+Gmin = 1.96168
+vernier = 0.0260122
+vernier = 0.034683
+Gmin = 1.83659
+vernier = 0.046244
+Gmin = 1.656
+vernier = 0.0616586
+vernier = 0.0822114
+Gmin = 1.3927
+vernier = 0.109615
+vernier = 0.146154
+Gmin = 1.05821
+vernier = 0.194871
+Gmin = 0.689091
+vernier = 0.259828
+vernier = 0.346438
+Gmin = 0.338836
+vernier = 0.461917
+vernier = 0.615889
+Gmin = 0.111862
+vernier = 0.821185
+Gmin = 0.0205749
+vernier = 1
+Gmin = 0.00220922
+Gmin = 0.000237213
+Gmin = 2.54705e-005
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+Gmin = 1.04327e-005
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+Gmin = 9.88359e-006
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00195313
+vernier = 0.000976563
+Gmin = 9.89802e-006
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 14.3939%
+Source Step = 21.9697%
+Source Step = 29.5455%
+Source Step = 37.1212%
+Source Step = 44.697%
+vernier = 0.375
+Source Step = 54.5455%
+Source Step = 65.9091%
+vernier = 0.09375
+Source Step = 65.1767%
+Source Step = 65.2211%
+Source Step = 65.2654%
+Source Step = 65.3098%
+Source Step = 65.3542%
+Source Step = 65.3986%
+vernier = 0.00219727
+Source Step = 65.4585%
+Source Step = 65.5251%
+Source Step = 65.5917%
+Source Step = 65.6583%
+Source Step = 65.7249%
+vernier = 0.0032959
+Source Step = 65.8114%
+Source Step = 65.9113%
+Source Step = 66.0112%
+Source Step = 66.1111%
+Source Step = 66.2109%
+vernier = 0.00494385
+Source Step = 66.3358%
+Source Step = 66.4856%
+Source Step = 66.6354%
+Source Step = 66.7852%
+Source Step = 66.935%
+vernier = 0.00741577
+Source Step = 67.1148%
+Source Step = 67.3395%
+Source Step = 67.5643%
+Source Step = 67.789%
+Source Step = 68.0137%
+vernier = 0.0111237
+Source Step = 68.2721%
+Source Step = 68.6092%
+Source Step = 68.9463%
+Source Step = 69.2834%
+Source Step = 69.6204%
+vernier = 0.0166855
+Source Step = 69.9912%
+Source Step = 70.4969%
+Source Step = 71.0025%
+Source Step = 71.5081%
+Source Step = 72.0137%
+vernier = 0.0250282
+Source Step = 72.5446%
+Source Step = 73.303%
+Source Step = 74.0615%
+Source Step = 74.8199%
+Source Step = 75.5783%
+Source Step = 76.3368%
+vernier = 0.0375423
+Source Step = 77.4744%
+Source Step = 78.6121%
+Source Step = 79.7497%
+Source Step = 80.8874%
+Source Step = 82.025%
+vernier = 0.0563135
+Source Step = 83.6746%
+Source Step = 85.3811%
+Source Step = 87.0875%
+Source Step = 88.794%
+Source Step = 90.5005%
+Source Step = 90.5191%
+Source Step = 90.5458%
+Source Step = 90.5725%
+Source Step = 90.5991%
+Source Step = 90.6258%
+Source Step = 90.6525%
+Source Step = 90.6791%
+Source Step = 90.7058%
+Source Step = 90.7324%
+Source Step = 90.7591%
+Source stepping aborted.
+Starting source stepping with srcstepmethod=1
+Source Step = 3.0303%
+Source Step = 14.3939%
+Source Step = 21.9697%
+Source Step = 29.5455%
+Source Step = 37.1212%
+Source Step = 44.697%
+vernier = 0.375
+Source Step = 54.5455%
+Source Step = 65.9091%
+Source Step = 77.2727%
+Source Step = 88.6364%
+Source Step = 93.1907%
+Source Step = 93.2351%
+Source stepping aborted.
+Pseudo Transient failed in finding the operating point.
+Trouble finding operating point....skipping operating point for Transient analysis.
+Ignoring empty pin current: Ix(u2:drive:in)
+Ignoring empty pin current: Ix(u2:tog:1)
+Ignoring empty pin current: Ix(u2:tog:2)
+Ignoring empty pin current: Ix(u2:1:ninv)
+Ignoring empty pin current: Ix(u2:1:inv)
+Ignoring empty pin current: Ix(u2:3:ninv)
+Ignoring empty pin current: Ix(u2:3:inv)
+Ignoring empty pin current: Ix(u2:7:1)
+Ignoring empty pin current: Ix(u2:8:1)
+Ignoring empty pin current: Ix(u2:8:2)
+Ignoring empty pin current: Ix(u2:6:1)
+Ignoring empty pin current: Ix(u2:6:2)
+Ignoring empty pin current: Ix(u2:13:6)
+Ignoring empty pin current: Ix(u2:13:8)
+Ignoring empty pin current: Ix(u2:14:6)
+Ignoring empty pin current: Ix(u2:14:8)
+Ignoring empty pin current: Ix(u2:16:1)
+Ignoring empty pin current: Ix(u2:16:2)
+Ignoring empty pin current: Ix(u2:17:ninv)
+Ignoring empty pin current: Ix(u2:17:inv)
+Ignoring empty pin current: Ix(u2:18:inv)
+Ignoring empty pin current: Ix(u2:19:1)
+Ignoring empty pin current: Ix(u2:20:1)
+Ignoring empty pin current: Ix(u2:20:2)
+Ignoring empty pin current: Ix(u2:21:1)
+Ignoring empty pin current: Ix(u2:12:1)
+Ignoring empty pin current: Ix(u2:12:2)
+Ignoring empty pin current: Ix(u2:rosc:ninv)
+Ignoring empty pin current: Ix(u2:rosc:inv)
+Ignoring empty pin current: Ix(u2:hd:s)
+Ignoring empty pin current: Ix(u2:29:s)
+Ignoring empty pin current: Ix(u2:99dc:ninv)
+Ignoring empty pin current: Ix(u2:99dc:inv)
+Ignoring empty pin current: Ix(u2:4:ninv)
+Ignoring empty pin current: Ix(u2:4:inv)
+Ignoring empty pin current: Ix(u2:10:1)
+Ignoring empty pin current: Ix(u2:10:2)
+Ignoring empty pin current: Ix(u2:ea:ss)
+Ignoring empty pin current: Ix(u2:rsthd:1)
+Ignoring empty pin current: Ix(u2:rsthd:2)
+Ignoring empty pin current: Ix(u2:rsthd:3)
+Ignoring empty pin current: Ix(u2:0dc:ninv)
+Ignoring empty pin current: Ix(u2:0dc:inv)
+Ignoring empty pin current: Ix(u2:tff:1)
+Ignoring empty pin current: Ix(u2:tff:2)
+Ignoring empty pin current: Ix(u2:tff:11)
+Ignoring empty pin current: Ix(u2:tff:12)
+Ignoring empty pin current: Ix(u2:hd:2:1)
+Ignoring empty pin current: Ix(u2:hd:2:2)
+Ignoring empty pin current: Ix(u2:hd:3:1)
+Ignoring empty pin current: Ix(u2:29:2:1)
+Ignoring empty pin current: Ix(u2:29:2:2)
+Ignoring empty pin current: Ix(u2:29:3:1)
+Ignoring empty pin current: Ix(u2:tff:1:1)
+Ignoring empty pin current: Ix(u2:tff:1:2)
+Ignoring empty pin current: Ix(u2:tff:1:3)
+Ignoring empty pin current: Ix(u2:tff:2:1)
+Ignoring empty pin current: Ix(u2:tff:2:2)
+Ignoring empty pin current: Ix(u2:tff:2:3)
+Ignoring empty pin current: Ix(u2:tff:3:1)
+Ignoring empty pin current: Ix(u2:tff:3:2)
+Ignoring empty pin current: Ix(u2:tff:3:3)
+Ignoring empty pin current: Ix(u2:tff:4:1)
+Ignoring empty pin current: Ix(u2:tff:4:2)
+Ignoring empty pin current: Ix(u2:tff:4:3)
+Ignoring empty pin current: Ix(u2:tff:5:1)
+Ignoring empty pin current: Ix(u2:tff:5:2)
+Ignoring empty pin current: Ix(u2:tff:5:3)
+Ignoring empty pin current: Ix(u2:tff:6:1)
+Ignoring empty pin current: Ix(u2:tff:6:2)
+Ignoring empty pin current: Ix(u2:tff:6:3)
+Ignoring empty pin current: Ix(u2:tff:7:1)
+Ignoring empty pin current: Ix(u2:tff:8:1)
+Changing Tseed to 7.8125e-008
+Changing Tseed to 7.8125e-010
+Heightened Def Con from 2.43575e-006 to 2.43575e-006
+Heightened Def Con from 2.43575e-006 +to 2.43575e-006
+Heightened Def Con from 2.43575e-006 ++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 +to 2.43575e-006
+Heightened Def Con from 2.43575e-006 ++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 ++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 ++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 ++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 ++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 ++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 ++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 ++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 +to 2.43575e-006
+Heightened Def Con from 2.43575e-006 ++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 ++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 ++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 ++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 ++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 ++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 ++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 ++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 ++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 ++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 ++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 ++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 +++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 ++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 ++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 +++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 +to 2.43575e-006
+Heightened Def Con from 2.43575e-006 +++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 +to 2.43575e-006
+Heightened Def Con from 2.43575e-006 +++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 +++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 +++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 +++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 +++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 +to 2.43575e-006
+Heightened Def Con from 2.43575e-006 +++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 +++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 +++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 ++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 +++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 +++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 +++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 to 2.43575e-006
+Heightened Def Con from 2.43575e-006 +++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 +++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 ++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 +++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 +++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 +++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 +++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 +++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 +++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 +++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 +++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 +++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 +++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 +++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 +++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 +++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 +++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 +++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 +++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 ++++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 ++++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 +++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 ++++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 ++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 ++++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 +++to 2.43575e-006
+Heightened Def Con from 2.43575e-006 +++to 2.43575e-006
+
+Date: Sat Jan 06 10:08:20 2018
+Total elapsed time: 8.152 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 63219
+traniter = 34207
+tranpoints = 3747
+accept = 921
+rejected = 5428
+matrix size = 206
+fillins = 244
+solver = Alternate
+Thread vector: 61.0/43.9[4] 12.0/7.7[4] 14.6/8.2[4] 3.0/14.5[1]  2592/500
+Matrix Compiler1: 24.04 KB object code size  11.3/8.6/[5.0]
+Matrix Compiler2: 20.30 KB object code size  7.6/13.0/[4.1]
+
+

@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:NixieSupply5vto160vDCMBoost-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -293,18 +294,6 @@ F 3 "" H 3750 3400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L L L2
-U 1 1 58859FC4
-P 4100 2050
-F 0 "L2" V 4050 2050 50  0000 C CNN
-F 1 "60ohm 100Mhz" V 4175 2050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" H 4100 2050 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/taiyo-yuden/BKP2125HS600-T/587-1932-1-ND/1465402" H 4100 2050 50  0001 C CNN
-F 4 "BKP2125HS600-T " V 4100 2050 60  0001 C CNN "MPN"
-	1    4100 2050
-	0    1    1    0   
-$EndComp
-$Comp
 L GND #PWR07
 U 1 1 5885A0FE
 P 4750 2700
@@ -349,17 +338,6 @@ F 3 "" H 1500 3050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L L L5
-U 1 1 5885A4D9
-P 7850 2050
-F 0 "L5" V 7800 2050 50  0000 C CNN
-F 1 "60ohm 100Mhz" V 7925 2050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" H 7850 2050 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/taiyo-yuden/BKP2125HS600-T/587-1932-1-ND/1465402" H 7850 2050 50  0001 C CNN
-	1    7850 2050
-	0    1    1    0   
-$EndComp
-$Comp
 L FDMS86255ET150 Q1
 U 1 1 59606CBE
 P 5900 2950
@@ -402,20 +380,6 @@ F 1 "SW_B" H 6150 2100 50  0000 C CNN
 F 2 "Connect:PINTST" H 6350 1900 50  0001 C CNN
 F 3 "" H 6350 1900 50  0001 C CNN
 	1    6150 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L USB_OTG-RESCUE-ETAclock P1
-U 1 1 597012CF
-P 1600 2500
-AR Path="/597012CF" Ref="P1"  Part="1" 
-AR Path="/5884D9D6/597012CF" Ref="P1"  Part="1" 
-F 0 "P1" H 1925 2375 50  0000 C CNN
-F 1 "USB_OTG" H 1600 2850 50  0000 C CNN
-F 2 "NixieSupply5vto160vDCMBoost_socket:USB_Micro-B_Wurth_3A_Non-OVAL-Drill" V 1550 2400 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/629105150521/732-5960-1-ND/5047555" V 1550 2400 50  0001 C CNN
-F 4 "629105150521" H 1600 2500 60  0001 C CNN "MPN"
-	1    1600 2500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -498,28 +462,6 @@ F 3 "" H 8400 3100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C13
-U 1 1 5974D95C
-P 8400 2450
-F 0 "C13" H 8425 2550 50  0000 L CNN
-F 1 "0.1uF 250v" H 8400 2300 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 8438 2300 50  0001 C CNN
-F 3 "" H 8400 2450 50  0000 C CNN
-	1    8400 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C12
-U 1 1 5974DAD8
-P 7550 2450
-F 0 "C12" H 7575 2550 50  0000 L CNN
-F 1 "0.1uF 250v" H 7400 2300 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 7588 2300 50  0001 C CNN
-F 3 "" H 7550 2450 50  0000 C CNN
-	1    7550 2450
-	1    0    0    -1  
-$EndComp
-$Comp
 L GND #PWR017
 U 1 1 5A3FB941
 P 2350 4500
@@ -533,39 +475,6 @@ $EndComp
 Text GLabel 1200 4200 0    60   Input ~ 0
 N_ENABLE
 $Comp
-L R R1
-U 1 1 5A3FC05D
-P 1700 4200
-F 0 "R1" V 1780 4200 50  0000 C CNN
-F 1 "1k" V 1700 4200 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 1630 4200 50  0001 C CNN
-F 3 "" H 1700 4200 50  0000 C CNN
-	1    1700 4200
-	0    1    1    0   
-$EndComp
-$Comp
-L R R4
-U 1 1 5A3FC312
-P 2050 3750
-F 0 "R4" V 2130 3750 50  0000 C CNN
-F 1 "100k" V 2050 3750 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 1980 3750 50  0001 C CNN
-F 3 "" H 2050 3750 50  0000 C CNN
-	1    2050 3750
-	-1   0    0    1   
-$EndComp
-$Comp
-L MPSA42 Q26
-U 1 1 5A400D9C
-P 2250 4200
-F 0 "Q26" H 2450 4275 50  0000 L CNN
-F 1 "MMBTA42" H 2450 4200 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 2450 4125 50  0001 L CIN
-F 3 "http://www.digikey.com/product-detail/en/micro-commercial-co/MMBTA42-TP/MMBTA42TPMSCT-ND/717401" H 2250 4200 50  0001 L CNN
-	1    2250 4200
-	1    0    0    -1  
-$EndComp
-$Comp
 L C C6
 U 1 1 5A3FE39A
 P 6700 2400
@@ -574,18 +483,6 @@ F 1 "100pF 250v" H 6700 2200 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 6738 2250 50  0001 C CNN
 F 3 "" H 6700 2400 50  0000 C CNN
 	1    6700 2400
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C14
-U 1 1 5A408B31
-P 3050 3350
-F 0 "C14" H 3075 3450 50  0000 L CNN
-F 1 "47uF 10v" H 3075 3250 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 3088 3200 50  0001 C CNN
-F 3 "http://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM21BR61A476ME15L/490-9961-1-ND/5026442" H 3050 3350 50  0001 C CNN
-F 4 "GRM21BR61A476ME15L" H 3050 3350 60  0001 C CNN "MPN"
-	1    3050 3350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -600,28 +497,6 @@ F 3 "" H 3050 3600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R9
-U 1 1 5A408DDF
-P 3300 3350
-F 0 "R9" V 3380 3350 50  0000 C CNN
-F 1 "100k" V 3200 3300 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 3230 3350 50  0001 C CNN
-F 3 "" H 3300 3350 50  0000 C CNN
-	1    3300 3350
-	-1   0    0    1   
-$EndComp
-$Comp
-L R R7
-U 1 1 5A408EBF
-P 3050 2650
-F 0 "R7" V 3130 2650 50  0000 C CNN
-F 1 "2k" V 3050 2650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 2980 2650 50  0001 C CNN
-F 3 "" H 3050 2650 50  0000 C CNN
-	1    3050 2650
-	-1   0    0    1   
-$EndComp
-$Comp
 L GND #PWR019
 U 1 1 5A409296
 P 3300 3600
@@ -630,18 +505,6 @@ F 1 "GND" H 3300 3450 50  0000 C CNN
 F 2 "" H 3300 3600 50  0000 C CNN
 F 3 "" H 3300 3600 50  0000 C CNN
 	1    3300 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C16
-U 1 1 5A40AC1C
-P 3350 2450
-F 0 "C16" H 3375 2550 50  0000 L CNN
-F 1 "47uF 10v" H 3375 2350 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 3388 2300 50  0001 C CNN
-F 3 "http://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM21BR61A476ME15L/490-9961-1-ND/5026442" H 3350 2450 50  0001 C CNN
-F 4 "GRM21BR61A476ME15L" H 3350 2450 60  0001 C CNN "MPN"
-	1    3350 2450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -656,17 +519,6 @@ F 3 "" H 3600 2650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C18
-U 1 1 5A40B0B2
-P 3600 2450
-F 0 "C18" H 3625 2550 50  0000 L CNN
-F 1 "0.1uF" H 3700 2650 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 3638 2300 50  0001 C CNN
-F 3 "" H 3600 2450 50  0001 C CNN
-	1    3600 2450
-	1    0    0    -1  
-$EndComp
-$Comp
 L GND #PWR021
 U 1 1 5A460588
 P 9600 2900
@@ -677,86 +529,31 @@ F 3 "" H 9600 2900 50  0000 C CNN
 	1    9600 2900
 	1    0    0    -1  
 $EndComp
-$Comp
-L D_Schottky D2
-U 1 1 5A4626BB
-P 3300 2950
-F 0 "D2" H 3300 3050 50  0000 C CNN
-F 1 "BAT54" H 3500 3000 50  0000 C CNN
-F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 3300 2950 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/diodes-incorporated/BAT54WS-7-F/BAT54WS-FDICT-ND/804892" H 3300 2950 50  0001 C CNN
-F 4 "BAT54WS-7-F" H 3300 2950 60  0001 C CNN "MPN"
-	1    3300 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C3
-U 1 1 5A45D816
-P 8150 2450
-F 0 "C3" H 8175 2550 50  0000 L CNN
-F 1 "0.1uF 250v" H 8150 2350 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 8188 2300 50  0001 C CNN
-F 3 "" H 8150 2450 50  0000 C CNN
-	1    8150 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C4
-U 1 1 5A466994
-P 4750 2450
-F 0 "C4" H 4775 2550 50  0000 L CNN
-F 1 "47uF 10v" H 4775 2350 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 4788 2300 50  0001 C CNN
-F 3 "http://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM21BR61A476ME15L/490-9961-1-ND/5026442" H 4750 2450 50  0001 C CNN
-F 4 "GRM21BR61A476ME15L" H 4750 2450 60  0001 C CNN "MPN"
-	1    4750 2450
-	1    0    0    -1  
-$EndComp
 Text GLabel 9500 2700 0    60   Input ~ 0
 N_ENABLE
 Wire Wire Line
 	4600 4000 4600 3900
 Wire Wire Line
-	4250 2050 4600 2050
-Wire Wire Line
-	4600 2050 4750 2050
-Wire Wire Line
-	4750 2050 5000 2050
-Wire Wire Line
-	5000 2050 5250 2050
-Wire Wire Line
-	5250 2050 5500 2050
+	4250 2050 5500 2050
 Wire Wire Line
 	4750 2050 4750 2300
 Connection ~ 4750 2050
 Wire Wire Line
 	4750 2700 4750 2600
 Wire Wire Line
-	5800 2050 6150 2050
+	5800 2050 6400 2050
 Wire Wire Line
-	6150 2050 6250 2050
-Wire Wire Line
-	6250 2050 6400 2050
-Wire Wire Line
-	6150 1900 6150 2050
-Wire Wire Line
-	6150 2050 6150 2400
+	6150 1900 6150 2400
 Connection ~ 6150 2050
 Wire Wire Line
-	6150 3350 6150 3400
-Wire Wire Line
-	6150 3400 6150 3450
+	6150 3350 6150 3450
 Wire Wire Line
 	6150 3850 6150 3750
 Wire Wire Line
 	6150 3400 5900 3400
 Connection ~ 6150 3400
 Wire Wire Line
-	5250 3400 5400 3400
-Wire Wire Line
-	5400 3400 5550 3400
-Wire Wire Line
-	5550 3400 5600 3400
+	5250 3400 5600 3400
 Wire Wire Line
 	5400 3400 5400 3450
 Wire Wire Line
@@ -765,31 +562,11 @@ Wire Wire Line
 	5200 3350 5100 3350
 Connection ~ 5400 3400
 Wire Wire Line
-	6950 2550 6950 2650
+	6950 2550 6950 2700
 Wire Wire Line
-	6950 2650 6950 2700
+	6700 2050 7700 2050
 Wire Wire Line
-	6700 2050 6800 2050
-Wire Wire Line
-	6800 2050 6950 2050
-Wire Wire Line
-	6950 2050 7150 2050
-Wire Wire Line
-	7150 2050 7350 2050
-Wire Wire Line
-	7350 2050 7550 2050
-Wire Wire Line
-	7550 2050 7700 2050
-Wire Wire Line
-	8000 2050 8150 2050
-Wire Wire Line
-	8150 2050 8400 2050
-Wire Wire Line
-	8400 2050 8550 2050
-Wire Wire Line
-	8550 2050 8650 2050
-Wire Wire Line
-	8650 2050 8800 2050
+	8000 2050 8800 2050
 Wire Wire Line
 	6950 2050 6950 2250
 Wire Wire Line
@@ -815,19 +592,13 @@ Connection ~ 7350 2050
 Wire Wire Line
 	7350 2600 7350 3100
 Wire Wire Line
-	4100 2750 4100 3050
+	4100 2750 4100 3350
 Wire Wire Line
-	4100 3050 4100 3350
-Wire Wire Line
-	3750 2750 3950 2750
-Wire Wire Line
-	3950 2750 4100 2750
+	3750 2750 4100 2750
 Wire Wire Line
 	3750 2750 3750 2850
 Wire Wire Line
-	3750 3150 3750 3200
-Wire Wire Line
-	3750 3200 3750 3250
+	3750 3150 3750 3250
 Wire Wire Line
 	4100 3500 3950 3500
 Wire Wire Line
@@ -838,9 +609,7 @@ Connection ~ 3750 3200
 Wire Wire Line
 	4100 3800 4100 3650
 Wire Wire Line
-	3350 3800 3350 3900
-Wire Wire Line
-	3350 3900 3350 4100
+	3350 3800 3350 4100
 Wire Wire Line
 	3350 4100 3450 4100
 Wire Wire Line
@@ -853,25 +622,11 @@ Wire Wire Line
 Wire Wire Line
 	4250 3900 4250 4100
 Wire Wire Line
-	6700 4100 5200 4100
-Wire Wire Line
-	5200 4100 4250 4100
-Wire Wire Line
-	4250 4100 4150 4100
+	6700 4100 4150 4100
 Connection ~ 4250 4100
 Connection ~ 4600 2050
 Wire Wire Line
-	2200 2050 2350 2050
-Wire Wire Line
-	2350 2050 2700 2050
-Wire Wire Line
-	2700 2050 3050 2050
-Wire Wire Line
-	3050 2050 3350 2050
-Wire Wire Line
-	3350 2050 3600 2050
-Wire Wire Line
-	3600 2050 3950 2050
+	2200 2050 3950 2050
 Wire Wire Line
 	4600 2050 4600 3050
 Wire Wire Line
@@ -885,11 +640,7 @@ Wire Wire Line
 Wire Wire Line
 	6150 3250 6150 3400
 Wire Wire Line
-	5800 2650 5900 2650
-Wire Wire Line
-	5900 2650 6000 2650
-Wire Wire Line
-	6000 2650 6100 2650
+	5800 2650 6100 2650
 Connection ~ 5900 2650
 Connection ~ 6000 2650
 Wire Wire Line
@@ -897,11 +648,7 @@ Wire Wire Line
 Wire Wire Line
 	6100 2400 6150 2400
 Wire Wire Line
-	5900 3250 6000 3250
-Wire Wire Line
-	6000 3250 6100 3250
-Wire Wire Line
-	6100 3250 6150 3250
+	5900 3250 6150 3250
 Connection ~ 6000 3250
 Connection ~ 6100 3250
 Wire Wire Line
@@ -913,9 +660,7 @@ Wire Wire Line
 	3350 2650 3350 2600
 Connection ~ 2350 2050
 Wire Wire Line
-	6700 2550 6700 2650
-Wire Wire Line
-	6700 2650 6700 4100
+	6700 2550 6700 4100
 Wire Wire Line
 	7150 2300 7150 2050
 Connection ~ 7150 2050
@@ -951,9 +696,7 @@ Wire Wire Line
 Wire Wire Line
 	2350 4500 2350 4400
 Wire Wire Line
-	1850 4200 2000 4200
-Wire Wire Line
-	2000 4200 2050 4200
+	1850 4200 2050 4200
 Wire Wire Line
 	1550 4200 1200 4200
 Wire Wire Line
@@ -978,11 +721,7 @@ Connection ~ 6800 2050
 Wire Wire Line
 	3050 3600 3050 3500
 Wire Wire Line
-	3050 2800 3050 2950
-Wire Wire Line
-	3050 2950 3050 3050
-Wire Wire Line
-	3050 3050 3050 3200
+	3050 2800 3050 3200
 Wire Wire Line
 	3050 2500 3050 2050
 Connection ~ 3050 2050
@@ -996,9 +735,7 @@ Wire Wire Line
 	3450 2950 3450 3800
 Connection ~ 3450 3800
 Wire Wire Line
-	2850 3050 3050 3050
-Wire Wire Line
-	3050 3050 3300 3050
+	2850 3050 3300 3050
 Wire Wire Line
 	3300 3050 3300 3200
 Wire Wire Line
@@ -1015,27 +752,13 @@ Wire Wire Line
 	8650 2050 8650 3100
 Connection ~ 8650 2050
 Wire Wire Line
-	3350 3800 3450 3800
-Wire Wire Line
-	3450 3800 4100 3800
+	3350 3800 4100 3800
 Wire Wire Line
 	2850 3050 2850 3800
 Wire Wire Line
 	2850 3800 2350 3800
 Text GLabel 9500 2500 0    60   Input ~ 0
 5v_Power
-$Comp
-L C C8
-U 1 1 5A46B086
-P 5000 2450
-F 0 "C8" H 5025 2550 50  0000 L CNN
-F 1 "47uF 10v" H 5050 2300 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 5038 2300 50  0001 C CNN
-F 3 "http://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM21BR61A476ME15L/490-9961-1-ND/5026442" H 5000 2450 50  0001 C CNN
-F 4 "GRM21BR61A476ME15L" H 5000 2450 60  0001 C CNN "MPN"
-	1    5000 2450
-	1    0    0    -1  
-$EndComp
 $Comp
 L GND #PWR022
 U 1 1 5A46B11B
@@ -1081,18 +804,7 @@ $EndComp
 Wire Wire Line
 	5250 2600 5250 2700
 $Comp
-L Screw_Terminal_1x04 J1
-U 1 1 5A46AC14
-P 10050 2800
-F 0 "J1" H 10050 3250 50  0000 C TNN
-F 1 "Screw_Terminal_1x04" V 9900 2800 50  0000 C TNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-3.5mm_4pol" H 10050 2375 50  0001 C CNN
-F 3 "" H 10025 3000 50  0001 C CNN
-	1    10050 2800
-	-1   0    0    1   
-$EndComp
-$Comp
-L CONN_01X01 J5
+L Conn_01x01 J5
 U 1 1 5A46B464
 P 5400 4600
 F 0 "J5" H 5400 4700 50  0000 C CNN
@@ -1103,7 +815,7 @@ F 3 "" H 5400 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X01 J3
+L Conn_01x01 J3
 U 1 1 5A46B52B
 P 4800 5100
 F 0 "J3" H 4800 5200 50  0000 C CNN
@@ -1114,7 +826,7 @@ F 3 "" H 4800 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X01 J4
+L Conn_01x01 J4
 U 1 1 5A46B5EB
 P 5350 5100
 F 0 "J4" H 5350 5200 50  0000 C CNN
@@ -1127,7 +839,7 @@ $EndComp
 Text Notes 4750 4400 0    60   ~ 0
 Mounting Holes\n
 $Comp
-L CONN_01X01 J2
+L Conn_01x01 J2
 U 1 1 5A46B2DF
 P 4800 4600
 F 0 "J2" H 4800 4700 50  0000 C CNN
@@ -1214,11 +926,11 @@ Connection ~ 4100 3050
 Wire Wire Line
 	9850 2900 9600 2900
 Wire Wire Line
-	8650 3100 9850 3100
+	8650 3100 9950 3100
 Wire Wire Line
 	9850 2500 9500 2500
 Wire Wire Line
-	9850 2700 9500 2700
+	9500 2700 9950 2700
 Wire Wire Line
 	4750 3050 4850 3050
 Wire Wire Line
@@ -1237,4 +949,219 @@ Wire Wire Line
 	2100 2600 1900 2600
 Text Notes 7300 1950 0    60   ~ 0
 OUTPUT SET to 167Volts
+$Comp
+L C C13
+U 1 1 5974D95C
+P 8400 2450
+F 0 "C13" H 8425 2550 50  0000 L CNN
+F 1 "0.1uF 250v" H 8400 2300 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 8438 2300 50  0001 C CNN
+F 3 "" H 8400 2450 50  0000 C CNN
+	1    8400 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C3
+U 1 1 5A45D816
+P 8150 2450
+F 0 "C3" H 8175 2550 50  0000 L CNN
+F 1 "0.1uF 250v" H 8150 2350 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 8188 2300 50  0001 C CNN
+F 3 "" H 8150 2450 50  0000 C CNN
+	1    8150 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L L L5
+U 1 1 5885A4D9
+P 7850 2050
+F 0 "L5" V 7800 2050 50  0000 C CNN
+F 1 "60ohm 100Mhz" V 7925 2050 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" H 7850 2050 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/taiyo-yuden/BKP2125HS600-T/587-1932-1-ND/1465402" H 7850 2050 50  0001 C CNN
+	1    7850 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L C C12
+U 1 1 5974DAD8
+P 7550 2450
+F 0 "C12" H 7575 2550 50  0000 L CNN
+F 1 "0.1uF 250v" H 7400 2300 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 7588 2300 50  0001 C CNN
+F 3 "" H 7550 2450 50  0000 C CNN
+	1    7550 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C8
+U 1 1 5A46B086
+P 5000 2450
+F 0 "C8" H 5025 2550 50  0000 L CNN
+F 1 "47uF 10v" H 5050 2300 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 5038 2300 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM21BR61A476ME15L/490-9961-1-ND/5026442" H 5000 2450 50  0001 C CNN
+F 4 "GRM21BR61A476ME15L" H 5000 2450 60  0001 C CNN "MPN"
+	1    5000 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C4
+U 1 1 5A466994
+P 4750 2450
+F 0 "C4" H 4775 2550 50  0000 L CNN
+F 1 "47uF 10v" H 4775 2350 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 4788 2300 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM21BR61A476ME15L/490-9961-1-ND/5026442" H 4750 2450 50  0001 C CNN
+F 4 "GRM21BR61A476ME15L" H 4750 2450 60  0001 C CNN "MPN"
+	1    4750 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L L L2
+U 1 1 58859FC4
+P 4100 2050
+F 0 "L2" V 4050 2050 50  0000 C CNN
+F 1 "60ohm 100Mhz" V 4175 2050 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" H 4100 2050 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/taiyo-yuden/BKP2125HS600-T/587-1932-1-ND/1465402" H 4100 2050 50  0001 C CNN
+F 4 "BKP2125HS600-T " V 4100 2050 60  0001 C CNN "MPN"
+	1    4100 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L C C18
+U 1 1 5A40B0B2
+P 3600 2450
+F 0 "C18" H 3625 2550 50  0000 L CNN
+F 1 "0.1uF" H 3700 2650 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 3638 2300 50  0001 C CNN
+F 3 "" H 3600 2450 50  0001 C CNN
+	1    3600 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C16
+U 1 1 5A40AC1C
+P 3350 2450
+F 0 "C16" H 3375 2550 50  0000 L CNN
+F 1 "47uF 10v" H 3375 2350 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 3388 2300 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM21BR61A476ME15L/490-9961-1-ND/5026442" H 3350 2450 50  0001 C CNN
+F 4 "GRM21BR61A476ME15L" H 3350 2450 60  0001 C CNN "MPN"
+	1    3350 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky D2
+U 1 1 5A4626BB
+P 3300 2950
+F 0 "D2" H 3300 3050 50  0000 C CNN
+F 1 "BAT54" H 3500 3000 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-323_HandSoldering" H 3300 2950 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/diodes-incorporated/BAT54WS-7-F/BAT54WS-FDICT-ND/804892" H 3300 2950 50  0001 C CNN
+F 4 "BAT54WS-7-F" H 3300 2950 60  0001 C CNN "MPN"
+	1    3300 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R7
+U 1 1 5A408EBF
+P 3050 2650
+F 0 "R7" V 3130 2650 50  0000 C CNN
+F 1 "2k" V 3050 2650 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 2980 2650 50  0001 C CNN
+F 3 "" H 3050 2650 50  0000 C CNN
+	1    3050 2650
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R9
+U 1 1 5A408DDF
+P 3300 3350
+F 0 "R9" V 3380 3350 50  0000 C CNN
+F 1 "100k" V 3200 3300 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 3230 3350 50  0001 C CNN
+F 3 "" H 3300 3350 50  0000 C CNN
+	1    3300 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C14
+U 1 1 5A408B31
+P 3050 3350
+F 0 "C14" H 3075 3450 50  0000 L CNN
+F 1 "47uF 10v" H 3075 3250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 3088 3200 50  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM21BR61A476ME15L/490-9961-1-ND/5026442" H 3050 3350 50  0001 C CNN
+F 4 "GRM21BR61A476ME15L" H 3050 3350 60  0001 C CNN "MPN"
+	1    3050 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 5A3FC05D
+P 1700 4200
+F 0 "R1" V 1780 4200 50  0000 C CNN
+F 1 "1k" V 1700 4200 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 1630 4200 50  0001 C CNN
+F 3 "" H 1700 4200 50  0000 C CNN
+	1    1700 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L R R4
+U 1 1 5A3FC312
+P 2050 3750
+F 0 "R4" V 2130 3750 50  0000 C CNN
+F 1 "100k" V 2050 3750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 1980 3750 50  0001 C CNN
+F 3 "" H 2050 3750 50  0000 C CNN
+	1    2050 3750
+	-1   0    0    1   
+$EndComp
+$Comp
+L MPSA42 Q26
+U 1 1 5A400D9C
+P 2250 4200
+F 0 "Q26" H 2450 4275 50  0000 L CNN
+F 1 "MMBTA42" H 2450 4200 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 2450 4125 50  0001 L CIN
+F 3 "http://www.digikey.com/product-detail/en/micro-commercial-co/MMBTA42-TP/MMBTA42TPMSCT-ND/717401" H 2250 4200 50  0001 L CNN
+	1    2250 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L USB_OTG P1
+U 1 1 5A51695C
+P 1600 2500
+F 0 "P1" H 1400 2950 50  0000 L CNN
+F 1 "USB_OTG" H 1400 2850 50  0000 L CNN
+F 2 "NixieSupply5vto160vDCMBoost_socket:USB_Micro-B_Wurth_3A_Non-OVAL-Drill" H 1750 2450 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/629105150521/732-5960-1-ND/5047555" H 1750 2450 50  0001 C CNN
+F 4 "629105150521" H 1600 2500 60  0001 C CNN "MPN"
+	1    1600 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Screw_Terminal_01x04 J1
+U 1 1 5A517AD7
+P 10150 2800
+F 0 "J1" H 10150 3000 50  0000 C CNN
+F 1 "Screw_Terminal_01x04" H 10150 2500 50  0000 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-3.5mm_4pol" H 10150 2800 50  0001 C CNN
+F 3 "" H 10150 2800 50  0001 C CNN
+	1    10150 2800
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	9850 2500 9850 2600
+Wire Wire Line
+	9850 2600 9950 2600
+Wire Wire Line
+	9850 2900 9850 2800
+Wire Wire Line
+	9850 2800 9950 2800
+Wire Wire Line
+	9950 3100 9950 2900
 $EndSCHEMATC
