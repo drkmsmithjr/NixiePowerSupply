@@ -10,4 +10,4 @@ __Datasheeets__: Datasheets for different inductors.  Many of the part datasheet
 
 See the complete blogs entry at  www.surfncircuits.com
   * [Designing a Small Footprint, Low Profile 5v to 170v Nixie Tube Power Supply (Part 1)](https://wp.me/p85ddV-A8 )
-  * [Optimizing the design of the 5v to 170v Nixie Tube Power Supply (Part 2)](https://wp.me/p85ddV-A8 )
+  * [Optimizing the design of the 5v to 170v Nixie Tube Power Supply (Part 2)](https://wp.me/p85ddV-B1 )
