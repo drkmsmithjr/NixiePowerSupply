@@ -14,6 +14,6 @@ See the complete blogs entry at  www.surfncircuits.com
 
 __Work in Progress__ :   
 
-__KC_NixieSupply5vto170vMini__:  I'm  working on taking the current design and shrinking it to be 1.5"x1" using smaller output capacitors but still having four mounting holes, a USB input connector and a Terminal output connector.    I would love to have some help completing this,  please send in a __Pull Request__.
+__KC_NixieSupply5vto170vMini__:  I'm  working on taking the current design and shrinking it to be 1.5"x1" using smaller output capacitors but still having four mounting holes, a USB input connector and a Terminal output connector.    
 
 
