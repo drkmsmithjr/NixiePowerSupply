@@ -471,8 +471,8 @@ P 6700 2400
 F 0 "C6" H 6725 2500 50  0000 L CNN
 F 1 "100pF 250v" H 6700 2200 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 6738 2250 50  0001 C CNN
-F 3 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=C0805C101JAGAC7800&k=&pkeyword=C0805C101JAGAC7800&pv7=2&quantity=0&ColumnSort=0&page=1&pageSize=25" H 6700 2400 50  0001 C CNN
-F 4 "CC0805C101JAGAC7800" H 6700 2400 60  0001 C CNN "MPN"
+F 3 "https://www.digikey.com/scripts/DkSearch/dksus.dll?Detail&itemSeq=248804877&uq=636513106927966714" H 6700 2400 50  0001 C CNN
+F 4 "CGA4J3X7T2E104M125AE" H 6700 2400 60  0001 C CNN "MPN"
 	1    6700 2400
 	1    0    0    -1  
 $EndComp
