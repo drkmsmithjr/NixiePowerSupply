@@ -1,4 +1,4 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.7-e2-6376~60~ubuntu17.10.1)
+(kicad_pcb (version 4) (host pcbnew 4.0.7-e2-6376~58~ubuntu14.04.1)
 
   (general
     (links 84)
@@ -1747,13 +1747,13 @@
     )
   )
 
-  (module NixieSupply5vto160vDCMBoost_socket:SOIC-8-N (layer F.Cu) (tedit 59606307) (tstamp 5A486BDF)
+  (module NixieSupply5vto160vDCMBoost_socket:SOIC-8-N (layer F.Cu) (tedit 5A977774) (tstamp 5A486BDF)
     (at 150.2791 89.6747 270)
     (descr "Module Narrow CMS SOJ 8 pins large")
     (tags "CMS SOJ")
     (path /58854AD6)
     (attr smd)
-    (fp_text reference U1 (at 0 -1.27 270) (layer F.SilkS)
+    (fp_text reference U1 (at 3.3528 -1.8669 540) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value UCC3803 (at 0 1.27 270) (layer F.Fab)
