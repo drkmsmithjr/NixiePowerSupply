@@ -3,6 +3,7 @@
 See [www.surfncircuits.com](https://wp.me/p85ddV-B1)  for a complete description.  This github repository contains the Kicad Schematic, Spice Simulation, Efficiency Calculations of the 5v to 170v DCM Boost Converter for Powering your Nixie Tubes.   
 
 ![PNG of the Schematic](https://github.com/drkmsmithjr/NixiePowerSupply/blob/master/KC_NixieSupply5vTo160v/nixiesupply5vto160vdcmboost-sch.png)
+![3D image of Rev 3 Mini Board](https://github.com/drkmsmithjr/NixiePowerSupply/blob/master/Mini_Nixie_3D.png)
 
 __KC_NixieSupply5vto160v__:  Kicad schematic, PCB layout, BOM.  The footprint is 1.5" x 1.5" and was described and optimized in Part 2 of the blog.     The Board can be ordered from __oshpark.com__.<a href="https://oshpark.com/shared_projects/FZ5eYIVY"><img src="https://oshpark.com/assets/badge-5b7ec47045b78aef6eb9d83b3bac6b1920de805e9a0c227658eac6e19a045b9c.png" alt="Order from OSH Park"></img></a>
 
