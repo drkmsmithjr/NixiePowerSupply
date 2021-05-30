@@ -1,4 +1,4 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.6+dfsg1-1)
+(kicad_pcb (version 4) (host pcbnew 4.0.7-e2-6376~61~ubuntu18.04.1)
 
   (general
     (links 77)
@@ -14,7 +14,7 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal)
+    (0 F.Cu signal hide)
     (31 B.Cu signal)
     (34 B.Paste user)
     (35 F.Paste user)
@@ -65,7 +65,7 @@
     (pad_to_mask_clearance 0.0508)
     (aux_axis_origin 136.0932 73.1774)
     (grid_origin 136.398 83.82)
-    (visible_elements 7FFEDE2B)
+    (visible_elements 7FFE9E2B)
     (pcbplotparams
       (layerselection 0x010f0_80000001)
       (usegerberextensions true)
@@ -320,7 +320,7 @@
   )
 
   (module OSHW_logo_silkscreen-front_5mm (layer B.Cu) (tedit 0) (tstamp 5A83BA82)
-    (at 150.4315 102.2985 180)
+    (at 151.338 102.22 180)
     (fp_text reference G*** (at 0 -2.65176 180) (layer B.SilkS) hide
       (effects (font (size 0.22606 0.22606) (thickness 0.04318)) (justify mirror))
     )

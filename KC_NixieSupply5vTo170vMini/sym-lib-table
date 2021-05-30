@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name NixieSupply5vto170vDCMBoostMini-rescue)(type Legacy)(uri ${KIPRJMOD}/NixieSupply5vto170vDCMBoostMini-rescue.lib)(options "")(descr ""))
+  (lib (name power1)(type Legacy)(uri /usr/share/kicad/library/power.lib)(options "")(descr ""))
+  (lib (name 74xx1)(type Legacy)(uri /usr/share/kicad/library/74xx.lib)(options "")(descr ""))
+)

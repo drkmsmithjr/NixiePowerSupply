@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name NixieSupply5vto160vDCMBoost-rescue)(type Legacy)(uri ${KIPRJMOD}/NixieSupply5vto160vDCMBoost-rescue.lib)(options "")(descr ""))
+)
