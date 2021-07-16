@@ -1,4 +1,4 @@
-18990357354391334
+18973746991506207
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -6145,62 +6145,6 @@ capacitor tantalum
 0
 2
 2
-CoffeeConnect
-CP_Elec_17_17
-SMT capacitor, aluminium electrolytic, 17_17
-
-0
-2
-2
-CoffeeConnect
-Choke_SMD_12x12mm_panasonic_V_series
-Choke, SMD, 12x12mm 4.2mm height
-Choke, SMD
-0
-2
-2
-CoffeeConnect
-D_SMA_Handsoldering
-Diode SMA Handsoldering
-Diode SMA Handsoldering
-0
-2
-2
-CoffeeConnect
-IN-4
-
-
-0
-15
-14
-CoffeeConnect
-Inductor_Wurth_HCM-7373
-Inductor, Wurth Elektronik, Wurth_HCM-7070, 7.3mmx7.3mm
-inductor wurth hcm smd
-0
-2
-2
-CoffeeConnect
-NX9415_QFN-24-3EP_4x4mm_Pitch0.5mm
-NX9415 QFN Package; 24-Lead Plastic QFN (4mm x 4mm) (see Microsemi NX9415.pdf)
-DFN 0.5
-0
-27
-27
-CoffeeConnect
-Raspberry_Pi_Zero_40pins
-Rpi Zero HAT 40pin header
-Raspberry Pi Zero Header Hat
-0
-44
-44
-CoffeeConnect
-SOIC-8-N
-Module Narrow CMS SOJ 8 pins large
-CMS SOJ
-0
-8
-8
 Connector
 Banana_Jack_1Pin
 Single banana socket, footprint - 6mm drill
@@ -50763,146 +50707,6 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
-ETA_CLK
-CP_Elec_17_17
-SMT capacitor, aluminium electrolytic, 17_17
-
-0
-2
-2
-ETA_CLK
-Choke_SMD_12x12mm_Wurth_WE-PD
-Choke, SMD, 12x12mm 4.2mm height
-Choke, SMD
-0
-2
-2
-ETA_CLK
-Choke_SMD_12x12mm_panasonic_V_series
-Choke, SMD, 12x12mm 4.2mm height
-Choke, SMD
-0
-2
-2
-ETA_CLK
-D_PowerDI-123_3D
-http://www.diodes.com/_files/datasheets/ds30497.pdf
-PowerDI diode vishay
-0
-2
-2
-ETA_CLK
-D_SMA_Handsoldering
-Diode SMA Handsoldering
-Diode SMA Handsoldering
-0
-2
-2
-ETA_CLK
-IN-4
-
-
-0
-14
-14
-ETA_CLK
-Inductor_Wurth_HCM-7373
-Inductor, Wurth Elektronik, Wurth_HCM-7070, 7.3mmx7.3mm
-inductor wurth hcm smd
-0
-2
-2
-ETA_CLK
-Inductor_Wurth_WE_LHMI_6363
-Inductor, Wurth Elektronik, Wurth_HCM-7070, 7.3mmx7.3mm
-inductor wurth hcm smd
-0
-2
-2
-ETA_CLK
-NX9415_QFN-24-3EP_4x4mm_Pitch0.5mm
-NX9415 QFN Package; 24-Lead Plastic QFN (4mm x 4mm) (see Microsemi NX9415.pdf)
-DFN 0.5
-0
-27
-27
-ETA_CLK
-R_Pi_Zero_40pins_No_Mount
-Rpi Zero HAT 40pin header
-Raspberry Pi Zero Header Hat
-0
-41
-41
-ETA_CLK
-Raspberry_Pi_Zero_40pins
-Rpi Zero HAT 40pin header
-Raspberry Pi Zero Header Hat
-0
-44
-41
-ETA_CLK
-SOIC-8-N
-Module Narrow CMS SOJ 8 pins large
-CMS SOJ
-0
-8
-8
-ETA_CLK
-TerminalBlock_Phoenix_PT-3.5mm_4pol_3D
-4-way 3.5mm pitch terminal block, Phoenix PT series
-
-0
-4
-4
-ETA_CLK
-USB_Micro-B_Wurth_3A
-Micro USB Type B Receptacle
-USB USB_B USB_micro USB_OTG
-0
-9
-6
-ETA_CLK
-USB_Micro-B_Wurth_3A_Non-OVAL-Drill
-Micro USB Type B Receptacle
-USB USB_B USB_micro USB_OTG
-0
-9
-6
-ETA_CLK
-USB_SUPPLY_5v_TO_170v
-Micro USB Type B Receptacle
-USB USB_B USB_micro USB_OTG
-0
-8
-4
-ETA_CLK
-USB_SUPPLY_5v_TO_170v_1M
-Micro USB Type B Receptacle
-USB USB_B USB_micro USB_OTG
-0
-5
-4
-ETA_CLK
-USB_SUPPLY_5v_TO_170v_3M
-Micro USB Type B Receptacle
-USB USB_B USB_micro USB_OTG
-0
-7
-4
-ETA_CLK
-USB_SUPPLY_5v_TO_170v_MINI_1M
-Micro USB Type B Receptacle
-USB USB_B USB_micro USB_OTG
-0
-5
-4
-ETA_CLK
-USB_SUPPLY_5v_TO_170v_MINI_2M
-Micro USB Type B Receptacle
-USB USB_B USB_micro USB_OTG
-0
-6
-4
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -58918,6 +58722,118 @@ net tie
 0
 4
 4
+NixieSupply5vto170vDCMBoostMini_socket
+CP_Elec_17_17
+SMT capacitor, aluminium electrolytic, 17_17
+
+0
+2
+2
+NixieSupply5vto170vDCMBoostMini_socket
+Choke_SMD_12x12mm_Wurth_WE-PD
+Choke, SMD, 12x12mm 4.2mm height
+Choke, SMD
+0
+2
+2
+NixieSupply5vto170vDCMBoostMini_socket
+Choke_SMD_12x12mm_panasonic_V_series
+Choke, SMD, 12x12mm 4.2mm height
+Choke, SMD
+0
+2
+2
+NixieSupply5vto170vDCMBoostMini_socket
+Copyright_LOGO
+
+
+0
+0
+0
+NixieSupply5vto170vDCMBoostMini_socket
+D_PowerDI-123_3D
+http://www.diodes.com/_files/datasheets/ds30497.pdf
+PowerDI diode vishay
+0
+2
+2
+NixieSupply5vto170vDCMBoostMini_socket
+D_SMA_Handsoldering
+Diode SMA Handsoldering
+Diode SMA Handsoldering
+0
+2
+2
+NixieSupply5vto170vDCMBoostMini_socket
+IN-4
+
+
+0
+15
+14
+NixieSupply5vto170vDCMBoostMini_socket
+Inductor_Wurth_HCM-7373
+Inductor, Wurth Elektronik, Wurth_HCM-7070, 7.3mmx7.3mm
+inductor wurth hcm smd
+0
+2
+2
+NixieSupply5vto170vDCMBoostMini_socket
+Inductor_Wurth_WE_LHMI_6363
+Inductor, Wurth Elektronik, Wurth_HCM-7070, 7.3mmx7.3mm
+inductor wurth hcm smd
+0
+2
+2
+NixieSupply5vto170vDCMBoostMini_socket
+NX9415_QFN-24-3EP_4x4mm_Pitch0.5mm
+NX9415 QFN Package; 24-Lead Plastic QFN (4mm x 4mm) (see Microsemi NX9415.pdf)
+DFN 0.5
+0
+27
+27
+NixieSupply5vto170vDCMBoostMini_socket
+OSHW_logo_silkscreen-front_5mm
+
+
+0
+0
+0
+NixieSupply5vto170vDCMBoostMini_socket
+Raspberry_Pi_Zero_40pins
+Rpi Zero HAT 40pin header
+Raspberry Pi Zero Header Hat
+0
+44
+44
+NixieSupply5vto170vDCMBoostMini_socket
+SOIC-8-N
+Module Narrow CMS SOJ 8 pins large
+CMS SOJ
+0
+8
+8
+NixieSupply5vto170vDCMBoostMini_socket
+TerminalBlock_Phoenix_PT-3.5mm_4pol_3D
+4-way 3.5mm pitch terminal block, Phoenix PT series
+
+0
+4
+4
+NixieSupply5vto170vDCMBoostMini_socket
+USB_Micro-B_Wurth_3A
+Micro USB Type B Receptacle
+USB USB_B USB_micro USB_OTG
+0
+9
+6
+NixieSupply5vto170vDCMBoostMini_socket
+USB_Micro-B_Wurth_3A_Non-OVAL-Drill
+Micro USB Type B Receptacle
+USB USB_B USB_micro USB_OTG
+0
+9
+6
 OptoDevice
 ADNS-9800
 Laser Gaming Sensor ADNS-9800
@@ -77899,6 +77815,13 @@ Symbol
 WEEE-Logo_28.1x40mm_SilkScreen
 Waste Electrical and Electronic Equipment Directive
 Logo WEEE
+0
+0
+0
+Symbol
+copyright
+
+
 0
 0
 0

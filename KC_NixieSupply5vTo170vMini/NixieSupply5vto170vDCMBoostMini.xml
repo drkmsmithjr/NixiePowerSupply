@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/mark/Dropbox/personal/SurfnCircuits/NixiePowerSupply/KC_NixieSupply5vTo170vMini/NixieSupply5vto170vDCMBoostMini.sch</source>
-    <date>Mon 19 Oct 2020 08:27:47 AM PDT</date>
-    <tool>Eeschema 5.1.6-c6e7f7d~87~ubuntu18.04.1</tool>
+    <source>/home/mark/Nextcloud/Documents/surfncircuits/SnCProjects/NixiePowerSupply/KC_NixieSupply5vTo170vMini/NixieSupply5vto170vDCMBoostMini.sch</source>
+    <date>Sat 05 Jun 2021 08:06:07 AM PDT</date>
+    <tool>Eeschema 5.1.6-c6e7f7d~87~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -26,7 +26,7 @@
       <fields>
         <field name="MPN">ES1D</field>
       </fields>
-      <libsource lib="NixieSupply5vto170vDCMBoostMini-rescue" part="D" description=""/>
+      <libsource lib="Device" part="D" description="Diode"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5884DA8B</tstamp>
     </comp>
@@ -35,6 +35,7 @@
       <footprint>NixieSupply5vto160vDCMBoost_socket:Choke_SMD_12x12mm_Wurth_WE-PD</footprint>
       <datasheet>https://www.digikey.com/products/en/inductors-coils-chokes/fixed-inductors/71?k=7447709330&amp;k=&amp;pkeyword=7447709330&amp;pv7=2&amp;mnonly=0&amp;ColumnSort=0&amp;page=1&amp;quantity=0&amp;ptm=0&amp;fid=0&amp;pageSize=25</datasheet>
       <fields>
+        <field name="MAN">Wurth</field>
         <field name="MPN">7447709330</field>
       </fields>
       <libsource lib="NixieSupply5vto170vDCMBoostMini-rescue" part="L" description=""/>
@@ -46,17 +47,19 @@
       <footprint>Resistors_SMD:R_0805</footprint>
       <datasheet>https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6DSFR10V/P19308CT-ND/6004663</datasheet>
       <fields>
+        <field name="MAN">Panasonic</field>
         <field name="MPN">ERJ-6DSFR10V</field>
       </fields>
-      <libsource lib="NixieSupply5vto170vDCMBoostMini-rescue" part="R" description=""/>
+      <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5884DD2F</tstamp>
     </comp>
     <comp ref="U1">
       <value>UCC3803</value>
       <footprint>NixieSupply5vto160vDCMBoost_socket:SOIC-8-N</footprint>
-      <datasheet>https://www.digikey.com/products/en/integrated-circuits-ics/pmic-voltage-regulators-dc-dc-switching-controllers/715?k=UCC3803&amp;k=&amp;pkeyword=UCC3803&amp;pv7=2&amp;pv1291=46&amp;mnonly=0&amp;ColumnSort=0&amp;page=1&amp;quantity=0&amp;ptm=0&amp;fid=0&amp;pageSize=25</datasheet>
+      <datasheet>https://www.digikey.com/short/nw0qc0m8</datasheet>
       <fields>
+        <field name="MAN">TI</field>
         <field name="MPN">UCC3803DTR</field>
       </fields>
       <libsource lib="NixieSupply5vto170vDCMBoostMini-rescue" part="AAC243" description=""/>
@@ -70,63 +73,98 @@
       <fields>
         <field name="MPN">C0603C561JAGAC7867</field>
       </fields>
-      <libsource lib="NixieSupply5vto170vDCMBoostMini-rescue" part="C" description=""/>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58854D96</tstamp>
     </comp>
     <comp ref="R8">
       <value>1k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
-      <libsource lib="NixieSupply5vto170vDCMBoostMini-rescue" part="R" description=""/>
+      <datasheet>https://www.digikey.com/short/zhfh52p4</datasheet>
+      <fields>
+        <field name="MAN">Yageo</field>
+        <field name="MPN">RC0805FR-071KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>588551A6</tstamp>
     </comp>
     <comp ref="C11">
       <value>1nF</value>
       <footprint>Capacitors_SMD:C_0805</footprint>
-      <libsource lib="NixieSupply5vto170vDCMBoostMini-rescue" part="C" description=""/>
+      <datasheet>https://www.digikey.com/short/9v2r4b4r</datasheet>
+      <fields>
+        <field name="MAN">KEMET</field>
+        <field name="MPN">C0805C102M5RACTU</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58855203</tstamp>
     </comp>
     <comp ref="R15">
       <value>634k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
-      <libsource lib="NixieSupply5vto170vDCMBoostMini-rescue" part="R" description=""/>
+      <datasheet>https://www.digikey.com/short/2hqfm3bm</datasheet>
+      <fields>
+        <field name="MAN">Yageo</field>
+        <field name="MPN">RC0805FR-07634KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>588552CB</tstamp>
     </comp>
     <comp ref="R16">
       <value>7.68k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
-      <libsource lib="NixieSupply5vto170vDCMBoostMini-rescue" part="R" description=""/>
+      <datasheet>https://www.digikey.com/short/rv4d2w71</datasheet>
+      <fields>
+        <field name="MAN">Yageo</field>
+        <field name="MPN">RC0805FR-077K68L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58855328</tstamp>
     </comp>
     <comp ref="R5">
       <value>0 Ohm</value>
       <footprint>Resistors_SMD:R_0805</footprint>
-      <libsource lib="NixieSupply5vto170vDCMBoostMini-rescue" part="R" description=""/>
+      <datasheet>https://www.digikey.com/short/4r0qnbv9</datasheet>
+      <fields>
+        <field name="MAN">Yageo</field>
+        <field name="MPN">RC0805FR-070RL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5885549C</tstamp>
     </comp>
     <comp ref="C5">
       <value>220pF</value>
       <footprint>Capacitors_SMD:C_0805</footprint>
-      <libsource lib="NixieSupply5vto170vDCMBoostMini-rescue" part="C" description=""/>
+      <datasheet>https://www.digikey.com/short/dmv5m3jj</datasheet>
+      <fields>
+        <field name="MAN">KEMET</field>
+        <field name="MPN">C0805C221M5RACTU</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5885552D</tstamp>
     </comp>
     <comp ref="R3">
       <value>N.U.</value>
       <footprint>Resistors_SMD:R_0805</footprint>
-      <libsource lib="NixieSupply5vto170vDCMBoostMini-rescue" part="R" description=""/>
+      <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>588555AD</tstamp>
     </comp>
     <comp ref="R2">
       <value>60.4k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
-      <libsource lib="NixieSupply5vto170vDCMBoostMini-rescue" part="R" description=""/>
+      <datasheet>https://www.digikey.com/short/tnrw9ntp</datasheet>
+      <fields>
+        <field name="MAN">Yageo</field>
+        <field name="MPN">RC0805FR-0760K4L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58855807</tstamp>
     </comp>
@@ -137,7 +175,7 @@
       <fields>
         <field name="MPN">CL21C431JBANNNC</field>
       </fields>
-      <libsource lib="NixieSupply5vto170vDCMBoostMini-rescue" part="C" description=""/>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58855871</tstamp>
     </comp>
@@ -146,6 +184,7 @@
       <footprint>etaclock:SOIC-8-N</footprint>
       <datasheet>https://www.digikey.com/product-detail/en/on-semiconductor/FDS2672/FDS2672CT-ND/1217902</datasheet>
       <fields>
+        <field name="MAN">On-Semi</field>
         <field name="MPN">FDS2672CT-ND</field>
       </fields>
       <libsource lib="NixieSupply5vto170vDCMBoostMini-rescue" part="FDMS86255ET150" description=""/>
@@ -159,7 +198,7 @@
       <fields>
         <field name="MPN">C4532X7T2E105M250KE</field>
       </fields>
-      <libsource lib="NixieSupply5vto170vDCMBoostMini-rescue" part="C" description=""/>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59700BD6</tstamp>
     </comp>
@@ -170,7 +209,7 @@
       <fields>
         <field name="MPN">C4532X7T2E105M250KE</field>
       </fields>
-      <libsource lib="NixieSupply5vto170vDCMBoostMini-rescue" part="C" description=""/>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>597025DB</tstamp>
     </comp>
@@ -181,7 +220,7 @@
       <fields>
         <field name="MPN">C0805C101JAGAC7800</field>
       </fields>
-      <libsource lib="NixieSupply5vto170vDCMBoostMini-rescue" part="C" description=""/>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3FE39A</tstamp>
     </comp>
@@ -192,56 +231,71 @@
       <fields>
         <field name="MPN">EMK325ABJ107MM-P</field>
       </fields>
-      <libsource lib="NixieSupply5vto170vDCMBoostMini-rescue" part="C" description=""/>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A46B83F</tstamp>
     </comp>
     <comp ref="J5">
       <value>CONN_01X01</value>
       <footprint>Mounting_Holes:MountingHole_2.2mm_M2</footprint>
-      <libsource lib="NixieSupply5vto170vDCMBoostMini-rescue" part="Conn_01x01" description=""/>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A46B464</tstamp>
     </comp>
     <comp ref="J3">
       <value>CONN_01X01</value>
       <footprint>Mounting_Holes:MountingHole_2.2mm_M2_Pad</footprint>
-      <libsource lib="NixieSupply5vto170vDCMBoostMini-rescue" part="Conn_01x01" description=""/>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A46B52B</tstamp>
     </comp>
     <comp ref="J4">
       <value>CONN_01X01</value>
       <footprint>Mounting_Holes:MountingHole_2.2mm_M2</footprint>
-      <libsource lib="NixieSupply5vto170vDCMBoostMini-rescue" part="Conn_01x01" description=""/>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A46B5EB</tstamp>
     </comp>
     <comp ref="J2">
       <value>CONN_01X01</value>
       <footprint>Mounting_Holes:MountingHole_2.2mm_M2_Pad</footprint>
-      <libsource lib="NixieSupply5vto170vDCMBoostMini-rescue" part="Conn_01x01" description=""/>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A46B2DF</tstamp>
     </comp>
     <comp ref="C10">
       <value>0.1uF 16v</value>
       <footprint>Capacitors_SMD:C_0805</footprint>
-      <libsource lib="NixieSupply5vto170vDCMBoostMini-rescue" part="C" description=""/>
+      <datasheet>https://www.digikey.com/short/tcz8722d</datasheet>
+      <fields>
+        <field name="MAN">KEMET</field>
+        <field name="MPN">C0805C104K3RACTU</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A478653</tstamp>
     </comp>
     <comp ref="R12">
       <value>4.12k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
-      <libsource lib="NixieSupply5vto170vDCMBoostMini-rescue" part="R" description=""/>
+      <datasheet>https://www.digikey.com/short/t85fjzmz</datasheet>
+      <fields>
+        <field name="MAN">Yageo</field>
+        <field name="MPN">RC0805FR-074K12L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A4792E0</tstamp>
     </comp>
     <comp ref="C3">
       <value>0.1uF 250v</value>
       <footprint>Capacitors_SMD:C_0805</footprint>
-      <libsource lib="NixieSupply5vto170vDCMBoostMini-rescue" part="C" description=""/>
+      <datasheet>https://www.digikey.com/short/rfdn84mq</datasheet>
+      <fields>
+        <field name="MAN">TDK</field>
+        <field name="MPN">CGA4J3X7T2E104M125AE</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A45D816</tstamp>
     </comp>
@@ -249,6 +303,9 @@
       <value>60ohm 100Mhz</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <datasheet>https://www.digikey.com/product-detail/en/taiyo-yuden/BKP2125HS600-T/587-1932-1-ND/1465402</datasheet>
+      <fields>
+        <field name="MPN">BKP2125HS600-T</field>
+      </fields>
       <libsource lib="NixieSupply5vto170vDCMBoostMini-rescue" part="L" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5885A4D9</tstamp>
@@ -256,7 +313,12 @@
     <comp ref="C12">
       <value>0.1uF 250v</value>
       <footprint>Capacitors_SMD:C_0805</footprint>
-      <libsource lib="NixieSupply5vto170vDCMBoostMini-rescue" part="C" description=""/>
+      <datasheet>https://www.digikey.com/short/rfdn84mq</datasheet>
+      <fields>
+        <field name="MAN">TDK</field>
+        <field name="MPN">CGA4J3X7T2E104M125AE</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5974DAD8</tstamp>
     </comp>
@@ -265,7 +327,7 @@
       <footprint>Resistors_SMD:R_0805</footprint>
       <datasheet>https://www.digikey.com/product-detail/en/taiyo-yuden/BKP2125HS600-T/587-1932-1-ND/1465402</datasheet>
       <fields>
-        <field name="MPN">BKP2125HS600-T </field>
+        <field name="MPN">BKP2125HS600-T</field>
       </fields>
       <libsource lib="NixieSupply5vto170vDCMBoostMini-rescue" part="L" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -274,7 +336,12 @@
     <comp ref="C18">
       <value>0.1uF</value>
       <footprint>Capacitors_SMD:C_0805</footprint>
-      <libsource lib="NixieSupply5vto170vDCMBoostMini-rescue" part="C" description=""/>
+      <datasheet>https://www.digikey.com/short/tcz8722d</datasheet>
+      <fields>
+        <field name="MAN">KEMET</field>
+        <field name="MPN">C0805C104K3RACTU</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A40B0B2</tstamp>
     </comp>
@@ -285,21 +352,31 @@
       <fields>
         <field name="MPN">EMK325ABJ107MM-P</field>
       </fields>
-      <libsource lib="NixieSupply5vto170vDCMBoostMini-rescue" part="C" description=""/>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A40AC1C</tstamp>
     </comp>
     <comp ref="R7">
       <value>2k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
-      <libsource lib="NixieSupply5vto170vDCMBoostMini-rescue" part="R" description=""/>
+      <datasheet>https://www.digikey.com/short/795bprhd</datasheet>
+      <fields>
+        <field name="MAN">Yageo</field>
+        <field name="MPN">RC0805FR-072KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A408EBF</tstamp>
     </comp>
     <comp ref="R9">
       <value>100k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
-      <libsource lib="NixieSupply5vto170vDCMBoostMini-rescue" part="R" description=""/>
+      <datasheet>https://www.digikey.com/short/qzj2m8ht</datasheet>
+      <fields>
+        <field name="MAN">Yageo</field>
+        <field name="MPN">RC0805FR-07100KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A408DDF</tstamp>
     </comp>
@@ -310,21 +387,31 @@
       <fields>
         <field name="MPN">EMK325BJ476MM-P</field>
       </fields>
-      <libsource lib="NixieSupply5vto170vDCMBoostMini-rescue" part="C" description=""/>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A408B31</tstamp>
     </comp>
     <comp ref="R1">
       <value>1k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
-      <libsource lib="NixieSupply5vto170vDCMBoostMini-rescue" part="R" description=""/>
+      <datasheet>https://www.digikey.com/short/zhfh52p4</datasheet>
+      <fields>
+        <field name="MAN">Yageo</field>
+        <field name="MPN">RC0805FR-071KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3FC05D</tstamp>
     </comp>
     <comp ref="R4">
       <value>100k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
-      <libsource lib="NixieSupply5vto170vDCMBoostMini-rescue" part="R" description=""/>
+      <datasheet>https://www.digikey.com/short/qzj2m8ht</datasheet>
+      <fields>
+        <field name="MAN">Yageo</field>
+        <field name="MPN">RC0805FR-07100KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A3FC312</tstamp>
     </comp>
@@ -333,6 +420,7 @@
       <footprint>NixieSupply5vto160vDCMBoost_socket:USB_Micro-B_Wurth_3A_Non-OVAL-Drill</footprint>
       <datasheet>https://www.digikey.com/product-detail/en/wurth-electronics-inc/629105150521/732-5960-1-ND/5047555</datasheet>
       <fields>
+        <field name="MAN">Wurth</field>
         <field name="MPN">629105150521</field>
       </fields>
       <libsource lib="NixieSupply5vto170vDCMBoostMini-rescue" part="USB_OTG" description=""/>
@@ -346,7 +434,7 @@
       <fields>
         <field name="MPN">BAT54WS-7-F</field>
       </fields>
-      <libsource lib="NixieSupply5vto170vDCMBoostMini-rescue" part="D_Schottky" description=""/>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A4626BB</tstamp>
     </comp>
@@ -357,7 +445,7 @@
       <fields>
         <field name="MPN">MMBTA42</field>
       </fields>
-      <libsource lib="NixieSupply5vto170vDCMBoostMini-rescue" part="MMBT3904" description=""/>
+      <libsource lib="Transistor_BJT" part="MMBT3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A7755E7</tstamp>
     </comp>
@@ -366,6 +454,7 @@
       <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-2.54mm_3pol</footprint>
       <datasheet>https://www.digikey.com/product-detail/en/phoenix-contact/1725669/277-1274-ND/267463</datasheet>
       <fields>
+        <field name="MAN">Phoenix</field>
         <field name="MPN">1725669</field>
       </fields>
       <libsource lib="NixieSupply5vto170vDCMBoostMini-rescue" part="Screw_Terminal_1x03" description=""/>
@@ -377,6 +466,7 @@
       <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-2.54mm_2pol</footprint>
       <datasheet>https://www.digikey.com/product-detail/en/phoenix-contact/1725656/277-1273-ND/267462</datasheet>
       <fields>
+        <field name="MAN">Phoenix</field>
         <field name="MPN">1725656</field>
       </fields>
       <libsource lib="NixieSupply5vto170vDCMBoostMini-rescue" part="Screw_Terminal_1x02" description=""/>
@@ -385,6 +475,86 @@
     </comp>
   </components>
   <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x01">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="NixieSupply5vto170vDCMBoostMini-rescue" part="AAC243">
       <fields>
         <field name="Reference">U</field>
@@ -399,70 +569,6 @@
         <pin num="6" name="OUT" type="output"/>
         <pin num="7" name="Vcc" type="power_in"/>
         <pin num="8" name="Vref" type="output"/>
-      </pins>
-    </libpart>
-    <libpart lib="NixieSupply5vto170vDCMBoostMini-rescue" part="C">
-      <footprints>
-        <fp>C_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">C</field>
-        <field name="Value">C</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="NixieSupply5vto170vDCMBoostMini-rescue" part="Conn_01x01">
-      <footprints>
-        <fp>Connector*:*_??x*mm*</fp>
-        <fp>Connector*:*1x??x*mm*</fp>
-        <fp>Pin?Header?Straight?1X*</fp>
-        <fp>Pin?Header?Angled?1X*</fp>
-        <fp>Socket?Strip?Straight?1X*</fp>
-        <fp>Socket?Strip?Angled?1X*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">Conn_01x01</field>
-      </fields>
-      <pins>
-        <pin num="1" name="Pin_1" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="NixieSupply5vto170vDCMBoostMini-rescue" part="D">
-      <footprints>
-        <fp>TO-???*</fp>
-        <fp>*SingleDiode</fp>
-        <fp>*_Diode_*</fp>
-        <fp>*SingleDiode*</fp>
-        <fp>D_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">D</field>
-      </fields>
-      <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="NixieSupply5vto170vDCMBoostMini-rescue" part="D_Schottky">
-      <footprints>
-        <fp>TO-???*</fp>
-        <fp>*SingleDiode</fp>
-        <fp>*_Diode_*</fp>
-        <fp>*SingleDiode*</fp>
-        <fp>D_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">D_Schottky</field>
-      </fields>
-      <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="NixieSupply5vto170vDCMBoostMini-rescue" part="FDMS86255ET150">
@@ -499,35 +605,6 @@
       <pins>
         <pin num="1" name="1" type="passive"/>
         <pin num="2" name="2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="NixieSupply5vto170vDCMBoostMini-rescue" part="MMBT3904">
-      <footprints>
-        <fp>SOT-23*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">Q</field>
-        <field name="Value">MMBT3904</field>
-        <field name="Footprint">TO_SOT_Packages_SMD:SOT-23</field>
-      </fields>
-      <pins>
-        <pin num="1" name="B" type="input"/>
-        <pin num="2" name="E" type="passive"/>
-        <pin num="3" name="C" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="NixieSupply5vto170vDCMBoostMini-rescue" part="R">
-      <footprints>
-        <fp>R_*</fp>
-        <fp>R_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">R</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="NixieSupply5vto170vDCMBoostMini-rescue" part="Screw_Terminal_1x02">
@@ -576,10 +653,47 @@
         <pin num="6" name="Shield" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Transistor_BJT" part="BC817">
+      <aliases>
+        <alias>BC818</alias>
+        <alias>BC846</alias>
+        <alias>BC847</alias>
+        <alias>BC848</alias>
+        <alias>BC849</alias>
+        <alias>BC850</alias>
+        <alias>MMBT3904</alias>
+        <alias>MMBT5550L</alias>
+        <alias>MMBT5551L</alias>
+      </aliases>
+      <description>0.8A Ic, 45V Vce, NPN Transistor, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/BC818-D.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC817</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
   </libparts>
   <libraries>
+    <library logical="Connector_Generic">
+      <uri>/home/mark/Dropbox/personal/Kicad5-1-6/kicad-symbols/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/home/mark/Dropbox/personal/Kicad5-1-6/kicad-symbols/Device.lib</uri>
+    </library>
     <library logical="NixieSupply5vto170vDCMBoostMini-rescue">
-      <uri>/home/mark/Dropbox/personal/SurfnCircuits/NixiePowerSupply/KC_NixieSupply5vTo170vMini/NixieSupply5vto170vDCMBoostMini-rescue.lib</uri>
+      <uri>/home/mark/Nextcloud/Documents/surfncircuits/SnCProjects/NixiePowerSupply/KC_NixieSupply5vTo170vMini/NixieSupply5vto170vDCMBoostMini-rescue.lib</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>/home/mark/Dropbox/personal/Kicad5-1-6/kicad-symbols/Transistor_BJT.lib</uri>
     </library>
   </libraries>
   <nets>

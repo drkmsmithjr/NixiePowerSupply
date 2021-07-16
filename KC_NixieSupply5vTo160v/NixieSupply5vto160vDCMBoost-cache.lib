@@ -1,11 +1,11 @@
-EESchema-LIBRARY Version 2.3
+EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# +160V
+# NixieSupply5vto160vDCMBoost-rescue_+160V
 #
-DEF +160V #PWR 0 0 Y Y 1 F P
+DEF NixieSupply5vto160vDCMBoost-rescue_+160V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "+160V" 0 140 50 H V C CNN
+F1 "NixieSupply5vto160vDCMBoost-rescue_+160V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -16,11 +16,11 @@ X +160V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# AAC243
+# NixieSupply5vto160vDCMBoost-rescue_AAC243
 #
-DEF AAC243 U 0 40 Y Y 1 F N
+DEF NixieSupply5vto160vDCMBoost-rescue_AAC243 U 0 40 Y Y 1 F N
 F0 "U" 50 150 60 H V C CNN
-F1 "AAC243" 500 -400 60 H V C CNN
+F1 "NixieSupply5vto160vDCMBoost-rescue_AAC243" 500 -400 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -36,11 +36,11 @@ X Vref 8 -200 0 200 R 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# C
+# NixieSupply5vto160vDCMBoost-rescue_C
 #
-DEF C C 0 10 N Y 1 F N
+DEF NixieSupply5vto160vDCMBoost-rescue_C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "C" 25 -100 50 H V L CNN
+F1 "NixieSupply5vto160vDCMBoost-rescue_C" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -54,11 +54,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Conn_01x01
+# NixieSupply5vto160vDCMBoost-rescue_Conn_01x01
 #
-DEF Conn_01x01 J 0 40 Y N 1 F N
+DEF NixieSupply5vto160vDCMBoost-rescue_Conn_01x01 J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "Conn_01x01" 0 -100 50 H V C CNN
+F1 "NixieSupply5vto160vDCMBoost-rescue_Conn_01x01" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -76,11 +76,11 @@ X Pin_1 1 -200 0 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# D
+# NixieSupply5vto160vDCMBoost-rescue_D
 #
-DEF D D 0 40 N N 1 F N
+DEF NixieSupply5vto160vDCMBoost-rescue_D D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "D" 0 -100 50 H V C CNN
+F1 "NixieSupply5vto160vDCMBoost-rescue_D" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -99,11 +99,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Schottky
+# NixieSupply5vto160vDCMBoost-rescue_D_Schottky
 #
-DEF D_Schottky D 0 40 N N 1 F N
+DEF NixieSupply5vto160vDCMBoost-rescue_D_Schottky D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_Schottky" 0 -100 50 H V C CNN
+F1 "NixieSupply5vto160vDCMBoost-rescue_D_Schottky" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -122,14 +122,13 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# FDMS8350LET40
+# NixieSupply5vto160vDCMBoost-rescue_FDMS86255ET150
 #
-DEF FDMS8350LET40 Q 0 0 Y N 1 F N
+DEF NixieSupply5vto160vDCMBoost-rescue_FDMS86255ET150 Q 0 0 Y N 1 F N
 F0 "Q" -200 300 50 H V L CNN
-F1 "FDMS8350LET40" -200 -250 50 H V L CNN
+F1 "NixieSupply5vto160vDCMBoost-rescue_FDMS86255ET150" -200 -250 50 H V L CNN
 F2 "TO_SOT_Packages_SMD:TDSON-8-1" 0 -344 50 H I C CIN
 F3 "" 0 0 50 V I L CNN
-ALIAS FDMT80060DC FDMT80080DC FDMT800120DC FDMT800100DC FDMT800150DC FDMT800152DC FDMS8050ET30 FDMS86202ET120 FDMS86150ET100 FDMS86255ET150 FDMS86350ET80 FDMS86550ET60 FDMS8050 FDMS8350L FDMS86255 FDMS86550 FDMS86202 FDMS86350 FDMS86152 FDMS86150
 $FPLIST
  SON*
 $ENDFPLIST
@@ -138,20 +137,20 @@ C -150 75 5 0 0 10 N
 C -50 75 5 0 0 10 N
 C 50 75 5 0 0 10 N
 C 150 75 5 0 0 10 N
+C -150 100 5 0 1 10 N
+C 0 50 111 0 1 8 N
+C 150 0 5 0 1 10 N
+C 150 100 5 0 1 10 N
 T 0 125 100 30 0 0 0 D Normal 0 C C
 T 0 -70 -70 30 0 0 0 G Normal 0 C C
 T 0 -125 100 30 0 0 0 S Normal 0 C C
+S -200 250 200 -200 0 1 10 f
 P 2 0 0 0 -200 100 -150 100 N
 P 2 0 0 0 -50 75 -150 75 N
 P 2 0 0 0 200 100 150 100 N
 P 4 0 0 0 -50 25 -50 110 50 110 50 25 N
 P 4 0 0 0 5 110 -15 120 -15 100 5 110 F
 P 4 0 0 0 15 125 10 120 10 100 5 95 N
-C -150 100 5 0 1 10 N
-C 0 50 111 0 1 8 N
-C 150 0 5 0 1 10 N
-C 150 100 5 0 1 10 N
-S -200 250 200 -200 0 1 10 f
 P 2 0 1 0 -200 -100 -50 -100 N
 P 2 0 1 15 -65 25 -35 25 N
 P 2 0 1 0 -50 -100 -50 0 N
@@ -175,11 +174,11 @@ X D 8 300 200 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# GND
+# NixieSupply5vto160vDCMBoost-rescue_GND
 #
-DEF GND #PWR 0 0 Y Y 1 F P
+DEF NixieSupply5vto160vDCMBoost-rescue_GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "GND" 0 -150 50 H V C CNN
+F1 "NixieSupply5vto160vDCMBoost-rescue_GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -188,11 +187,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# L
+# NixieSupply5vto160vDCMBoost-rescue_L
 #
-DEF L L 0 40 N N 1 F N
+DEF NixieSupply5vto160vDCMBoost-rescue_L L 0 40 N N 1 F N
 F0 "L" -50 0 50 V V C CNN
-F1 "L" 75 0 50 V V C CNN
+F1 "NixieSupply5vto160vDCMBoost-rescue_L" 75 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -211,11 +210,11 @@ X 2 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MMBT3904
+# NixieSupply5vto160vDCMBoost-rescue_MMBT3904
 #
-DEF MMBT3904 Q 0 0 Y Y 1 F N
+DEF NixieSupply5vto160vDCMBoost-rescue_MMBT3904 Q 0 0 Y Y 1 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "MMBT3904" 200 0 50 H V L CNN
+F1 "NixieSupply5vto160vDCMBoost-rescue_MMBT3904" 200 0 50 H V L CNN
 F2 "TO_SOT_Packages_SMD:SOT-23" 200 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
 $FPLIST
@@ -234,11 +233,11 @@ X C 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R
+# NixieSupply5vto160vDCMBoost-rescue_R
 #
-DEF R R 0 0 N Y 1 F N
+DEF NixieSupply5vto160vDCMBoost-rescue_R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R" 0 0 50 V V C CNN
+F1 "NixieSupply5vto160vDCMBoost-rescue_R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -252,11 +251,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Screw_Terminal_01x04
+# NixieSupply5vto160vDCMBoost-rescue_Screw_Terminal_01x04
 #
-DEF Screw_Terminal_01x04 J 0 40 Y N 1 F N
+DEF NixieSupply5vto160vDCMBoost-rescue_Screw_Terminal_01x04 J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "Screw_Terminal_01x04" 0 -300 50 H V C CNN
+F1 "NixieSupply5vto160vDCMBoost-rescue_Screw_Terminal_01x04" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -284,11 +283,11 @@ X Pin_4 4 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# TEST_1P
+# NixieSupply5vto160vDCMBoost-rescue_TEST_1P
 #
-DEF TEST_1P J 0 30 N N 1 F N
+DEF NixieSupply5vto160vDCMBoost-rescue_TEST_1P J 0 30 N N 1 F N
 F0 "J" 0 270 50 H V C CNN
-F1 "TEST_1P" 0 200 50 H V C CNN
+F1 "NixieSupply5vto160vDCMBoost-rescue_TEST_1P" 0 200 50 H V C CNN
 F2 "" 200 0 50 H I C CNN
 F3 "" 200 0 50 H I C CNN
 DRAW
@@ -297,11 +296,11 @@ X 1 1 0 0 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# USB_OTG
+# NixieSupply5vto160vDCMBoost-rescue_USB_OTG
 #
-DEF USB_OTG J 0 40 Y Y 1 F N
+DEF NixieSupply5vto160vDCMBoost-rescue_USB_OTG J 0 40 Y Y 1 F N
 F0 "J" -200 450 50 H V L CNN
-F1 "USB_OTG" -200 350 50 H V L CNN
+F1 "NixieSupply5vto160vDCMBoost-rescue_USB_OTG" -200 350 50 H V L CNN
 F2 "" 150 -50 50 H I C CNN
 F3 "" 150 -50 50 H I C CNN
 $FPLIST

@@ -1,36 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:NixieSupply5vto160vDCMBoost-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:NixieSupply5vto160vDCMBoost-cache
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -45,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L D D1
+L NixieSupply5vto160vDCMBoost-rescue:D D1
 U 1 1 5884DA8B
 P 6550 2050
 F 0 "D1" H 6550 2150 50  0000 C CNN
@@ -57,7 +26,7 @@ F 4 "ES1D" H 6550 2050 60  0001 C CNN "MPN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L L L3
+L NixieSupply5vto160vDCMBoost-rescue:L L3
 U 1 1 5884DB9B
 P 5650 2050
 F 0 "L3" V 5600 2050 50  0000 C CNN
@@ -69,7 +38,7 @@ F 4 "7447709330" V 5650 2050 60  0001 C CNN "MPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R10
+L NixieSupply5vto160vDCMBoost-rescue:R R10
 U 1 1 5884DD2F
 P 6150 3600
 F 0 "R10" V 6230 3600 50  0000 C CNN
@@ -81,7 +50,7 @@ F 4 "ERJ-6DSFR10V" V 6150 3600 60  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R6
+L NixieSupply5vto160vDCMBoost-rescue:R R6
 U 1 1 5884E3A2
 P 5350 3250
 F 0 "R6" V 5430 3250 50  0000 C CNN
@@ -94,7 +63,7 @@ $EndComp
 Text GLabel 2200 2050 0    60   Input ~ 0
 5v_Power
 $Comp
-L +160V #PWR01
+L NixieSupply5vto160vDCMBoost-rescue:+160V #PWR01
 U 1 1 5885165E
 P 8800 1900
 F 0 "#PWR01" H 8800 1750 50  0001 C CNN
@@ -105,7 +74,7 @@ F 3 "" H 8800 1900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AAC243 U1
+L NixieSupply5vto160vDCMBoost-rescue:AAC243 U1
 U 1 1 58854AD6
 P 4300 3350
 F 0 "U1" H 4400 3550 60  0000 C CNN
@@ -117,7 +86,7 @@ F 4 "UCC3803DTR" H 4300 3350 60  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR02
+L NixieSupply5vto160vDCMBoost-rescue:GND #PWR02
 U 1 1 58854BC1
 P 4600 4000
 F 0 "#PWR02" H 4600 3750 50  0001 C CNN
@@ -128,7 +97,7 @@ F 3 "" H 4600 4000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR03
+L NixieSupply5vto160vDCMBoost-rescue:GND #PWR03
 U 1 1 58854BF1
 P 6150 3850
 F 0 "#PWR03" H 6150 3600 50  0001 C CNN
@@ -139,7 +108,7 @@ F 3 "" H 6150 3850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR04
+L NixieSupply5vto160vDCMBoost-rescue:GND #PWR04
 U 1 1 58854C1A
 P 7350 3100
 F 0 "#PWR04" H 7350 2850 50  0001 C CNN
@@ -150,7 +119,7 @@ F 3 "" H 7350 3100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C15
+L NixieSupply5vto160vDCMBoost-rescue:C C15
 U 1 1 58854D96
 P 6450 2850
 F 0 "C15" H 6475 2950 50  0000 L CNN
@@ -162,7 +131,7 @@ F 4 "C0603C561JAGAC7867" H 6450 2850 60  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R8
+L NixieSupply5vto160vDCMBoost-rescue:R R8
 U 1 1 588551A6
 P 5750 3400
 F 0 "R8" V 5830 3400 50  0000 C CNN
@@ -173,7 +142,7 @@ F 3 "" H 5750 3400 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C11
+L NixieSupply5vto160vDCMBoost-rescue:C C11
 U 1 1 58855203
 P 5400 3600
 F 0 "C11" H 5425 3700 50  0000 L CNN
@@ -184,7 +153,7 @@ F 3 "" H 5400 3600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R15
+L NixieSupply5vto160vDCMBoost-rescue:R R15
 U 1 1 588552CB
 P 6950 2400
 F 0 "R15" V 7030 2400 50  0000 C CNN
@@ -195,7 +164,7 @@ F 3 "" H 6950 2400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R16
+L NixieSupply5vto160vDCMBoost-rescue:R R16
 U 1 1 58855328
 P 6950 2850
 F 0 "R16" V 7030 2850 50  0000 C CNN
@@ -206,7 +175,7 @@ F 3 "" H 6950 2850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR05
+L NixieSupply5vto160vDCMBoost-rescue:GND #PWR05
 U 1 1 5885537E
 P 6450 3100
 F 0 "#PWR05" H 6450 2850 50  0001 C CNN
@@ -217,7 +186,7 @@ F 3 "" H 6450 3100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR06
+L NixieSupply5vto160vDCMBoost-rescue:GND #PWR06
 U 1 1 588553B9
 P 6950 3100
 F 0 "#PWR06" H 6950 2850 50  0001 C CNN
@@ -228,7 +197,7 @@ F 3 "" H 6950 3100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R5
+L NixieSupply5vto160vDCMBoost-rescue:R R5
 U 1 1 5885549C
 P 4000 4100
 F 0 "R5" V 4080 4100 50  0000 C CNN
@@ -239,7 +208,7 @@ F 3 "" H 4000 4100 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C5
+L NixieSupply5vto160vDCMBoost-rescue:C C5
 U 1 1 5885552D
 P 3600 4100
 F 0 "C5" H 3625 4200 50  0000 L CNN
@@ -250,7 +219,7 @@ F 3 "" H 3600 4100 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R3
+L NixieSupply5vto160vDCMBoost-rescue:R R3
 U 1 1 588555AD
 P 3850 3900
 F 0 "R3" V 3930 3900 50  0000 C CNN
@@ -261,7 +230,7 @@ F 3 "" H 3850 3900 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R2
+L NixieSupply5vto160vDCMBoost-rescue:R R2
 U 1 1 58855807
 P 3750 3000
 F 0 "R2" V 3830 3000 50  0000 C CNN
@@ -272,7 +241,7 @@ F 3 "" H 3750 3000 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C7
+L NixieSupply5vto160vDCMBoost-rescue:C C7
 U 1 1 58855871
 P 3750 3400
 F 0 "C7" H 3775 3500 50  0000 L CNN
@@ -284,7 +253,7 @@ F 4 "CL21C431JBANNNC" H 3750 3400 60  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR07
+L NixieSupply5vto160vDCMBoost-rescue:GND #PWR07
 U 1 1 5885A0FE
 P 4750 2700
 F 0 "#PWR07" H 4750 2450 50  0001 C CNN
@@ -295,7 +264,7 @@ F 3 "" H 4750 2700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR08
+L NixieSupply5vto160vDCMBoost-rescue:GND #PWR08
 U 1 1 5885A3EF
 P 5400 3850
 F 0 "#PWR08" H 5400 3600 50  0001 C CNN
@@ -306,7 +275,7 @@ F 3 "" H 5400 3850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR09
+L NixieSupply5vto160vDCMBoost-rescue:GND #PWR09
 U 1 1 5885AEE1
 P 3750 3550
 F 0 "#PWR09" H 3750 3300 50  0001 C CNN
@@ -317,7 +286,7 @@ F 3 "" H 3750 3550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FDMS86255ET150 Q1
+L NixieSupply5vto160vDCMBoost-rescue:FDMS86255ET150 Q1
 U 1 1 59606CBE
 P 5900 2950
 F 0 "Q1" H 5700 3250 50  0000 L CNN
@@ -329,7 +298,7 @@ F 4 "FDS2672CT-ND" H 5900 2950 60  0001 C CNN "MPN"
 	0    1    -1   0   
 $EndComp
 $Comp
-L GND #PWR010
+L NixieSupply5vto160vDCMBoost-rescue:GND #PWR010
 U 1 1 5960F6F8
 P 3350 2650
 F 0 "#PWR010" H 3350 2400 50  0001 C CNN
@@ -340,7 +309,7 @@ F 3 "" H 3350 2650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST_1P TP14
+L NixieSupply5vto160vDCMBoost-rescue:TEST_1P TP14
 U 1 1 596368AF
 P 8550 2000
 F 0 "TP14" H 8550 2270 50  0000 C CNN
@@ -351,7 +320,7 @@ F 3 "" H 8750 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST_1P TP12
+L NixieSupply5vto160vDCMBoost-rescue:TEST_1P TP12
 U 1 1 59636DB8
 P 6150 1900
 F 0 "TP12" H 6150 2170 50  0000 C CNN
@@ -362,7 +331,7 @@ F 3 "" H 6350 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR011
+L NixieSupply5vto160vDCMBoost-rescue:GND #PWR011
 U 1 1 59701877
 P 1600 3050
 F 0 "#PWR011" H 1600 2800 50  0001 C CNN
@@ -373,7 +342,7 @@ F 3 "" H 1600 3050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C2
+L NixieSupply5vto160vDCMBoost-rescue:C C2
 U 1 1 59700BD6
 P 7350 2450
 F 0 "C2" H 7375 2550 50  0000 L CNN
@@ -385,7 +354,7 @@ F 4 "GRM55DR72E105KW01L" H 7350 2450 60  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1
+L NixieSupply5vto160vDCMBoost-rescue:C C1
 U 1 1 597025DB
 P 7150 2450
 F 0 "C1" H 7175 2550 50  0000 L CNN
@@ -397,7 +366,7 @@ F 4 "GRM55DR72E105KW01L" H 7150 2450 60  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR012
+L NixieSupply5vto160vDCMBoost-rescue:GND #PWR012
 U 1 1 597060B9
 P 7150 3100
 F 0 "#PWR012" H 7150 2850 50  0001 C CNN
@@ -408,7 +377,7 @@ F 3 "" H 7150 3100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR013
+L NixieSupply5vto160vDCMBoost-rescue:GND #PWR013
 U 1 1 59706564
 P 7550 3100
 F 0 "#PWR013" H 7550 2850 50  0001 C CNN
@@ -419,7 +388,7 @@ F 3 "" H 7550 3100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR014
+L NixieSupply5vto160vDCMBoost-rescue:GND #PWR014
 U 1 1 597066D0
 P 8150 3100
 F 0 "#PWR014" H 8150 2850 50  0001 C CNN
@@ -430,7 +399,7 @@ F 3 "" H 8150 3100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR015
+L NixieSupply5vto160vDCMBoost-rescue:GND #PWR015
 U 1 1 597069A8
 P 8400 3100
 F 0 "#PWR015" H 8400 2850 50  0001 C CNN
@@ -441,7 +410,7 @@ F 3 "" H 8400 3100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR016
+L NixieSupply5vto160vDCMBoost-rescue:GND #PWR016
 U 1 1 5A3FB941
 P 2350 4500
 F 0 "#PWR016" H 2350 4250 50  0001 C CNN
@@ -454,7 +423,7 @@ $EndComp
 Text GLabel 1200 4200 0    60   Input ~ 0
 N_ENABLE
 $Comp
-L C C6
+L NixieSupply5vto160vDCMBoost-rescue:C C6
 U 1 1 5A3FE39A
 P 6700 2400
 F 0 "C6" H 6725 2500 50  0000 L CNN
@@ -466,7 +435,7 @@ F 4 "CC0805C101JAGAC7800" H 6700 2400 60  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR017
+L NixieSupply5vto160vDCMBoost-rescue:GND #PWR017
 U 1 1 5A408C45
 P 3050 3600
 F 0 "#PWR017" H 3050 3350 50  0001 C CNN
@@ -477,7 +446,7 @@ F 3 "" H 3050 3600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR018
+L NixieSupply5vto160vDCMBoost-rescue:GND #PWR018
 U 1 1 5A409296
 P 3300 3600
 F 0 "#PWR018" H 3300 3350 50  0001 C CNN
@@ -488,7 +457,7 @@ F 3 "" H 3300 3600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR019
+L NixieSupply5vto160vDCMBoost-rescue:GND #PWR019
 U 1 1 5A40B17A
 P 3600 2650
 F 0 "#PWR019" H 3600 2400 50  0001 C CNN
@@ -499,7 +468,7 @@ F 3 "" H 3600 2650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR020
+L NixieSupply5vto160vDCMBoost-rescue:GND #PWR020
 U 1 1 5A460588
 P 9600 2900
 F 0 "#PWR020" H 9600 2650 50  0001 C CNN
@@ -514,26 +483,26 @@ N_ENABLE
 Wire Wire Line
 	4600 4000 4600 3900
 Wire Wire Line
-	4250 2050 5500 2050
+	4250 2050 4600 2050
 Wire Wire Line
 	4750 2050 4750 2300
 Connection ~ 4750 2050
 Wire Wire Line
 	4750 2700 4750 2600
 Wire Wire Line
-	5800 2050 6400 2050
+	5800 2050 6150 2050
 Wire Wire Line
-	6150 1900 6150 2400
+	6150 1900 6150 2050
 Connection ~ 6150 2050
 Wire Wire Line
-	6150 3350 6150 3450
+	6150 3350 6150 3400
 Wire Wire Line
 	6150 3850 6150 3750
 Wire Wire Line
 	6150 3400 5900 3400
 Connection ~ 6150 3400
 Wire Wire Line
-	5250 3400 5600 3400
+	5250 3400 5400 3400
 Wire Wire Line
 	5400 3400 5400 3450
 Wire Wire Line
@@ -542,11 +511,11 @@ Wire Wire Line
 	5200 3350 5100 3350
 Connection ~ 5400 3400
 Wire Wire Line
-	6950 2550 6950 2700
+	6950 2550 6950 2650
 Wire Wire Line
-	6700 2050 7700 2050
+	6700 2050 6800 2050
 Wire Wire Line
-	8000 2050 8800 2050
+	8000 2050 8150 2050
 Wire Wire Line
 	6950 2050 6950 2250
 Wire Wire Line
@@ -570,13 +539,13 @@ Connection ~ 7350 2050
 Wire Wire Line
 	7350 2600 7350 3100
 Wire Wire Line
-	4100 2750 4100 3350
+	4100 2750 4100 3050
 Wire Wire Line
-	3750 2750 4100 2750
+	3750 2750 3950 2750
 Wire Wire Line
 	3750 2750 3750 2850
 Wire Wire Line
-	3750 3150 3750 3250
+	3750 3150 3750 3200
 Wire Wire Line
 	4100 3500 3950 3500
 Wire Wire Line
@@ -587,7 +556,7 @@ Connection ~ 3750 3200
 Wire Wire Line
 	4100 3800 4100 3650
 Wire Wire Line
-	3350 3800 3350 4100
+	3350 3800 3350 3900
 Wire Wire Line
 	3350 4100 3450 4100
 Wire Wire Line
@@ -600,11 +569,11 @@ Wire Wire Line
 Wire Wire Line
 	4250 3900 4250 4100
 Wire Wire Line
-	6700 4100 4150 4100
+	6700 4100 5200 4100
 Connection ~ 4250 4100
 Connection ~ 4600 2050
 Wire Wire Line
-	2200 2050 3950 2050
+	2200 2050 2350 2050
 Wire Wire Line
 	4600 2050 4600 3050
 Wire Wire Line
@@ -618,7 +587,7 @@ Wire Wire Line
 Wire Wire Line
 	6150 3250 6150 3400
 Wire Wire Line
-	5800 2650 6100 2650
+	5800 2650 5900 2650
 Connection ~ 5900 2650
 Connection ~ 6000 2650
 Wire Wire Line
@@ -626,7 +595,7 @@ Wire Wire Line
 Wire Wire Line
 	6100 2400 6150 2400
 Wire Wire Line
-	5900 3250 6150 3250
+	5900 3250 6000 3250
 Connection ~ 6000 3250
 Connection ~ 6100 3250
 Wire Wire Line
@@ -638,7 +607,7 @@ Wire Wire Line
 	3350 2650 3350 2600
 Connection ~ 2350 2050
 Wire Wire Line
-	6700 2550 6700 4100
+	6700 2550 6700 2650
 Wire Wire Line
 	7150 2300 7150 2050
 Connection ~ 7150 2050
@@ -672,7 +641,7 @@ Wire Wire Line
 Wire Wire Line
 	2350 4500 2350 4400
 Wire Wire Line
-	1850 4200 2050 4200
+	1850 4200 2000 4200
 Wire Wire Line
 	1550 4200 1200 4200
 Wire Wire Line
@@ -697,7 +666,7 @@ Connection ~ 6800 2050
 Wire Wire Line
 	3050 3600 3050 3500
 Wire Wire Line
-	3050 2800 3050 3200
+	3050 2800 3050 2950
 Wire Wire Line
 	3050 2500 3050 2050
 Connection ~ 3050 2050
@@ -711,7 +680,7 @@ Wire Wire Line
 	3450 2950 3450 3800
 Connection ~ 3450 3800
 Wire Wire Line
-	2850 3050 3300 3050
+	2850 3050 3050 3050
 Wire Wire Line
 	3300 3050 3300 3200
 Wire Wire Line
@@ -728,7 +697,7 @@ Wire Wire Line
 	8650 2050 8650 3100
 Connection ~ 8650 2050
 Wire Wire Line
-	3350 3800 4100 3800
+	3350 3800 3450 3800
 Wire Wire Line
 	2850 3050 2850 3800
 Wire Wire Line
@@ -736,7 +705,7 @@ Wire Wire Line
 Text GLabel 9500 2500 0    60   Input ~ 0
 5v_Power
 $Comp
-L GND #PWR021
+L NixieSupply5vto160vDCMBoost-rescue:GND #PWR021
 U 1 1 5A46B11B
 P 5000 2700
 F 0 "#PWR021" H 5000 2450 50  0001 C CNN
@@ -752,7 +721,7 @@ Connection ~ 5000 2050
 Wire Wire Line
 	5000 2600 5000 2700
 $Comp
-L Conn_01x01 J5
+L NixieSupply5vto160vDCMBoost-rescue:Conn_01x01 J5
 U 1 1 5A46B464
 P 5400 4600
 F 0 "J5" H 5400 4700 50  0000 C CNN
@@ -763,7 +732,7 @@ F 3 "" H 5400 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x01 J3
+L NixieSupply5vto160vDCMBoost-rescue:Conn_01x01 J3
 U 1 1 5A46B52B
 P 4800 5100
 F 0 "J3" H 4800 5200 50  0000 C CNN
@@ -774,7 +743,7 @@ F 3 "" H 4800 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x01 J4
+L NixieSupply5vto160vDCMBoost-rescue:Conn_01x01 J4
 U 1 1 5A46B5EB
 P 5350 5100
 F 0 "J4" H 5350 5200 50  0000 C CNN
@@ -787,7 +756,7 @@ $EndComp
 Text Notes 4750 4400 0    60   ~ 0
 Mounting Holes\n
 $Comp
-L Conn_01x01 J2
+L NixieSupply5vto160vDCMBoost-rescue:Conn_01x01 J2
 U 1 1 5A46B2DF
 P 4800 4600
 F 0 "J2" H 4800 4700 50  0000 C CNN
@@ -802,7 +771,7 @@ Wire Wire Line
 Wire Wire Line
 	4600 5200 4600 5100
 $Comp
-L GND #PWR022
+L NixieSupply5vto160vDCMBoost-rescue:GND #PWR022
 U 1 1 5A47271C
 P 4600 5200
 F 0 "#PWR022" H 4600 4950 50  0001 C CNN
@@ -813,7 +782,7 @@ F 3 "" H 4600 5200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR023
+L NixieSupply5vto160vDCMBoost-rescue:GND #PWR023
 U 1 1 5A4727AE
 P 4600 4700
 F 0 "#PWR023" H 4600 4450 50  0001 C CNN
@@ -828,7 +797,7 @@ Wire Wire Line
 Wire Wire Line
 	2350 2300 2350 2050
 $Comp
-L C C10
+L NixieSupply5vto160vDCMBoost-rescue:C C10
 U 1 1 5A478653
 P 4300 2550
 F 0 "C10" H 4325 2650 50  0000 L CNN
@@ -839,7 +808,7 @@ F 3 "" H 4300 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR024
+L NixieSupply5vto160vDCMBoost-rescue:GND #PWR024
 U 1 1 5A4786FA
 P 4300 2700
 F 0 "#PWR024" H 4300 2450 50  0001 C CNN
@@ -855,7 +824,7 @@ Wire Wire Line
 	3950 2400 3950 2750
 Connection ~ 3950 2750
 $Comp
-L R R12
+L NixieSupply5vto160vDCMBoost-rescue:R R12
 U 1 1 5A4792E0
 P 5000 3050
 F 0 "R12" V 5080 3050 50  0000 C CNN
@@ -892,7 +861,7 @@ Wire Wire Line
 Text Notes 7300 1950 0    60   ~ 0
 OUTPUT SET to 167Volts
 $Comp
-L C C13
+L NixieSupply5vto160vDCMBoost-rescue:C C13
 U 1 1 5974D95C
 P 8400 2450
 F 0 "C13" H 8425 2550 50  0000 L CNN
@@ -904,7 +873,7 @@ F 4 "CGA4J3X7T2E104M125AE" H 8400 2450 60  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C3
+L NixieSupply5vto160vDCMBoost-rescue:C C3
 U 1 1 5A45D816
 P 8150 2450
 F 0 "C3" H 8175 2550 50  0000 L CNN
@@ -916,7 +885,7 @@ F 4 "CGA4J3X7T2E104M125AE" H 8150 2450 60  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L L L5
+L NixieSupply5vto160vDCMBoost-rescue:L L5
 U 1 1 5885A4D9
 P 7850 2050
 F 0 "L5" V 7800 2050 50  0000 C CNN
@@ -927,7 +896,7 @@ F 3 "https://www.digikey.com/product-detail/en/taiyo-yuden/BKP2125HS600-T/587-19
 	0    1    1    0   
 $EndComp
 $Comp
-L C C12
+L NixieSupply5vto160vDCMBoost-rescue:C C12
 U 1 1 5974DAD8
 P 7550 2450
 F 0 "C12" H 7575 2550 50  0000 L CNN
@@ -939,7 +908,7 @@ F 4 "CGA4J3X7T2E104M125AE" H 7550 2450 60  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C8
+L NixieSupply5vto160vDCMBoost-rescue:C C8
 U 1 1 5A46B086
 P 5000 2450
 F 0 "C8" H 5025 2550 50  0000 L CNN
@@ -951,7 +920,7 @@ F 4 "EMK325ABJ107MM-P" H 5000 2450 60  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C4
+L NixieSupply5vto160vDCMBoost-rescue:C C4
 U 1 1 5A466994
 P 4750 2450
 F 0 "C4" H 4775 2550 50  0000 L CNN
@@ -963,7 +932,7 @@ F 4 "EMK325ABJ107MM-P" H 4750 2450 60  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L L L2
+L NixieSupply5vto160vDCMBoost-rescue:L L2
 U 1 1 58859FC4
 P 4100 2050
 F 0 "L2" V 4050 2050 50  0000 C CNN
@@ -975,7 +944,7 @@ F 4 "BKP2125HS600-T " V 4100 2050 60  0001 C CNN "MPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L C C18
+L NixieSupply5vto160vDCMBoost-rescue:C C18
 U 1 1 5A40B0B2
 P 3600 2450
 F 0 "C18" H 3625 2550 50  0000 L CNN
@@ -986,7 +955,7 @@ F 3 "" H 3600 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C16
+L NixieSupply5vto160vDCMBoost-rescue:C C16
 U 1 1 5A40AC1C
 P 3350 2450
 F 0 "C16" H 3375 2550 50  0000 L CNN
@@ -998,7 +967,7 @@ F 4 "EMK325ABJ107MM-P" H 3350 2450 60  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L D_Schottky D2
+L NixieSupply5vto160vDCMBoost-rescue:D_Schottky D2
 U 1 1 5A4626BB
 P 3300 2950
 F 0 "D2" H 3300 3050 50  0000 C CNN
@@ -1010,7 +979,7 @@ F 4 "BAT54WS-7-F" H 3300 2950 60  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R7
+L NixieSupply5vto160vDCMBoost-rescue:R R7
 U 1 1 5A408EBF
 P 3050 2650
 F 0 "R7" V 3130 2650 50  0000 C CNN
@@ -1021,7 +990,7 @@ F 3 "" H 3050 2650 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R9
+L NixieSupply5vto160vDCMBoost-rescue:R R9
 U 1 1 5A408DDF
 P 3300 3350
 F 0 "R9" V 3380 3350 50  0000 C CNN
@@ -1032,7 +1001,7 @@ F 3 "" H 3300 3350 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C14
+L NixieSupply5vto160vDCMBoost-rescue:C C14
 U 1 1 5A408B31
 P 3050 3350
 F 0 "C14" H 3075 3450 50  0000 L CNN
@@ -1044,7 +1013,7 @@ F 4 "C3216JB1C476M160AB" H 3050 3350 60  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1
+L NixieSupply5vto160vDCMBoost-rescue:R R1
 U 1 1 5A3FC05D
 P 1700 4200
 F 0 "R1" V 1780 4200 50  0000 C CNN
@@ -1055,7 +1024,7 @@ F 3 "" H 1700 4200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R4
+L NixieSupply5vto160vDCMBoost-rescue:R R4
 U 1 1 5A3FC312
 P 2050 3750
 F 0 "R4" V 2130 3750 50  0000 C CNN
@@ -1066,7 +1035,7 @@ F 3 "" H 2050 3750 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L USB_OTG P1
+L NixieSupply5vto160vDCMBoost-rescue:USB_OTG P1
 U 1 1 5A51695C
 P 1600 2500
 F 0 "P1" H 1400 2950 50  0000 L CNN
@@ -1078,7 +1047,7 @@ F 4 "629105150521" H 1600 2500 60  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Screw_Terminal_01x04 J1
+L NixieSupply5vto160vDCMBoost-rescue:Screw_Terminal_01x04 J1
 U 1 1 5A517AD7
 P 10150 2800
 F 0 "J1" H 10150 3000 50  0000 C CNN
@@ -1100,7 +1069,7 @@ Wire Wire Line
 Wire Wire Line
 	9950 3100 9950 2900
 $Comp
-L MMBT3904 Q26
+L NixieSupply5vto160vDCMBoost-rescue:MMBT3904 Q26
 U 1 1 5A6EF5F8
 P 2250 4200
 F 0 "Q26" H 2450 4275 50  0000 L CNN
@@ -1111,7 +1080,7 @@ F 3 "http://www.digikey.com/product-detail/en/micro-commercial-co/MMBTA42-TP/MMB
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR025
+L NixieSupply5vto160vDCMBoost-rescue:GND #PWR025
 U 1 1 5885B65A
 P 1500 3050
 F 0 "#PWR025" H 1500 2800 50  0001 C CNN
@@ -1123,4 +1092,84 @@ F 3 "" H 1500 3050 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	1500 2900 1500 3050
+Wire Wire Line
+	4750 2050 5000 2050
+Wire Wire Line
+	6150 2050 6250 2050
+Wire Wire Line
+	6150 2050 6150 2400
+Wire Wire Line
+	6150 3400 6150 3450
+Wire Wire Line
+	5400 3400 5550 3400
+Wire Wire Line
+	6950 2650 6950 2700
+Wire Wire Line
+	6250 2050 6400 2050
+Wire Wire Line
+	6950 2050 7150 2050
+Wire Wire Line
+	7350 2050 7550 2050
+Wire Wire Line
+	3750 3200 3750 3250
+Wire Wire Line
+	3350 3900 3350 4100
+Wire Wire Line
+	4250 4100 4150 4100
+Wire Wire Line
+	4600 2050 4750 2050
+Wire Wire Line
+	5900 2650 6000 2650
+Wire Wire Line
+	6000 2650 6100 2650
+Wire Wire Line
+	6000 3250 6100 3250
+Wire Wire Line
+	6100 3250 6150 3250
+Wire Wire Line
+	3350 2050 3600 2050
+Wire Wire Line
+	2350 2050 2700 2050
+Wire Wire Line
+	7150 2050 7350 2050
+Wire Wire Line
+	7550 2050 7700 2050
+Wire Wire Line
+	8400 2050 8550 2050
+Wire Wire Line
+	8150 2050 8400 2050
+Wire Wire Line
+	5200 4100 4250 4100
+Wire Wire Line
+	2700 2050 3050 2050
+Wire Wire Line
+	2000 4200 2050 4200
+Wire Wire Line
+	6700 2650 6700 4100
+Wire Wire Line
+	6800 2050 6950 2050
+Wire Wire Line
+	3050 2050 3350 2050
+Wire Wire Line
+	3050 3050 3050 3200
+Wire Wire Line
+	3050 3050 3300 3050
+Wire Wire Line
+	3050 2950 3050 3050
+Wire Wire Line
+	3450 3800 4100 3800
+Wire Wire Line
+	3600 2050 3950 2050
+Wire Wire Line
+	8550 2050 8650 2050
+Wire Wire Line
+	8650 2050 8800 2050
+Wire Wire Line
+	5000 2050 5500 2050
+Wire Wire Line
+	3950 2750 4100 2750
+Wire Wire Line
+	5550 3400 5600 3400
+Wire Wire Line
+	4100 3050 4100 3350
 $EndSCHEMATC

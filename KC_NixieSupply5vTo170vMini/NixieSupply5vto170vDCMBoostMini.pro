@@ -1,4 +1,4 @@
-update=Mon 19 Oct 2020 08:22:06 AM PDT
+update=Sun 30 May 2021 02:34:17 PM PDT
 version=1
 last_client=kicad
 [cvpcb]
@@ -6,20 +6,23 @@ version=1
 NetIExt=net
 [general]
 version=1
+[eeschema]
+version=1
+LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
 LabSize=60
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=
+LastNetListRead=NixieSupply5vto170vDCMBoostMini.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -68,7 +71,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.0508
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
@@ -291,6 +294,3 @@ uViaDrill=0.3302
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[eeschema]
-version=1
-LibDir=
