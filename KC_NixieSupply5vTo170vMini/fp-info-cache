@@ -1,4 +1,4 @@
-18973746991506207
+18969006472340207
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -76677,27 +76677,6 @@ sensirion dfn nolead
 0
 10
 9
-Sensor_Magnetic_MS_update
-Copyright_LOGO
-
-
-0
-0
-0
-Sensor_Magnetic_MS_update
-LINEAR-L004-M100mmxW19mmxL145mm
-
-
-0
-60
-11
-Sensor_Magnetic_MS_update
-OSHW_LOGO
-
-
-0
-0
-0
 Sensor_Motion
 InvenSense_QFN-24_3x3mm_P0.4mm
 24-Lead Plastic QFN (3mm x 3mm); Pitch 0.4mm; EP 1.7x1.54mm; for InvenSense motion sensors; keepout area marked (Package see: https://store.invensense.com/datasheets/invensense/MPU9250REV1.0.pdf; See also https://www.invensense.com/wp-content/uploads/2015/02/InvenSense-MEMS-Handling.pdf)

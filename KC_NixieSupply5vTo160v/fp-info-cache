@@ -1,4 +1,4 @@
-18972228408221207
+18965906230888809
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -58722,112 +58722,98 @@ net tie
 0
 4
 4
-NixieSupply5vto170vDCMBoostMini_socket
+NixieSupply5vto160vDCMBoost_socket
 CP_Elec_17_17
 SMT capacitor, aluminium electrolytic, 17_17
 
 0
 2
 2
-NixieSupply5vto170vDCMBoostMini_socket
+NixieSupply5vto160vDCMBoost_socket
 Choke_SMD_12x12mm_Wurth_WE-PD
 Choke, SMD, 12x12mm 4.2mm height
 Choke, SMD
 0
 2
 2
-NixieSupply5vto170vDCMBoostMini_socket
+NixieSupply5vto160vDCMBoost_socket
 Choke_SMD_12x12mm_panasonic_V_series
 Choke, SMD, 12x12mm 4.2mm height
 Choke, SMD
 0
 2
 2
-NixieSupply5vto170vDCMBoostMini_socket
-Copyright_LOGO
-
-
-0
-0
-0
-NixieSupply5vto170vDCMBoostMini_socket
+NixieSupply5vto160vDCMBoost_socket
 D_PowerDI-123_3D
 http://www.diodes.com/_files/datasheets/ds30497.pdf
 PowerDI diode vishay
 0
 2
 2
-NixieSupply5vto170vDCMBoostMini_socket
+NixieSupply5vto160vDCMBoost_socket
 D_SMA_Handsoldering
 Diode SMA Handsoldering
 Diode SMA Handsoldering
 0
 2
 2
-NixieSupply5vto170vDCMBoostMini_socket
+NixieSupply5vto160vDCMBoost_socket
 IN-4
 
 
 0
 15
 14
-NixieSupply5vto170vDCMBoostMini_socket
+NixieSupply5vto160vDCMBoost_socket
 Inductor_Wurth_HCM-7373
 Inductor, Wurth Elektronik, Wurth_HCM-7070, 7.3mmx7.3mm
 inductor wurth hcm smd
 0
 2
 2
-NixieSupply5vto170vDCMBoostMini_socket
+NixieSupply5vto160vDCMBoost_socket
 Inductor_Wurth_WE_LHMI_6363
 Inductor, Wurth Elektronik, Wurth_HCM-7070, 7.3mmx7.3mm
 inductor wurth hcm smd
 0
 2
 2
-NixieSupply5vto170vDCMBoostMini_socket
+NixieSupply5vto160vDCMBoost_socket
 NX9415_QFN-24-3EP_4x4mm_Pitch0.5mm
 NX9415 QFN Package; 24-Lead Plastic QFN (4mm x 4mm) (see Microsemi NX9415.pdf)
 DFN 0.5
 0
 27
 27
-NixieSupply5vto170vDCMBoostMini_socket
-OSHW_logo_silkscreen-front_5mm
-
-
-0
-0
-0
-NixieSupply5vto170vDCMBoostMini_socket
+NixieSupply5vto160vDCMBoost_socket
 Raspberry_Pi_Zero_40pins
 Rpi Zero HAT 40pin header
 Raspberry Pi Zero Header Hat
 0
 44
 44
-NixieSupply5vto170vDCMBoostMini_socket
+NixieSupply5vto160vDCMBoost_socket
 SOIC-8-N
 Module Narrow CMS SOJ 8 pins large
 CMS SOJ
 0
 8
 8
-NixieSupply5vto170vDCMBoostMini_socket
+NixieSupply5vto160vDCMBoost_socket
 TerminalBlock_Phoenix_PT-3.5mm_4pol_3D
 4-way 3.5mm pitch terminal block, Phoenix PT series
 
 0
 4
 4
-NixieSupply5vto170vDCMBoostMini_socket
+NixieSupply5vto160vDCMBoost_socket
 USB_Micro-B_Wurth_3A
 Micro USB Type B Receptacle
 USB USB_B USB_micro USB_OTG
 0
 9
 6
-NixieSupply5vto170vDCMBoostMini_socket
+NixieSupply5vto160vDCMBoost_socket
 USB_Micro-B_Wurth_3A_Non-OVAL-Drill
 Micro USB Type B Receptacle
 USB USB_B USB_micro USB_OTG
@@ -76677,27 +76663,6 @@ sensirion dfn nolead
 0
 10
 9
-Sensor_Magnetic_MS_update
-Copyright_LOGO
-
-
-0
-0
-0
-Sensor_Magnetic_MS_update
-LINEAR-L004-M100mmxW19mmxL145mm
-
-
-0
-60
-11
-Sensor_Magnetic_MS_update
-OSHW_LOGO
-
-
-0
-0
-0
 Sensor_Motion
 InvenSense_QFN-24_3x3mm_P0.4mm
 24-Lead Plastic QFN (3mm x 3mm); Pitch 0.4mm; EP 1.7x1.54mm; for InvenSense motion sensors; keepout area marked (Package see: https://store.invensense.com/datasheets/invensense/MPU9250REV1.0.pdf; See also https://www.invensense.com/wp-content/uploads/2015/02/InvenSense-MEMS-Handling.pdf)
@@ -77815,6 +77780,13 @@ Symbol
 WEEE-Logo_28.1x40mm_SilkScreen
 Waste Electrical and Electronic Equipment Directive
 Logo WEEE
+0
+0
+0
+Symbol
+copyright
+
+
 0
 0
 0
